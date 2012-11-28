@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		495AC8AB1666461B007164DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495AC8AA1666461B007164DA /* UIKit.framework */; };
+		495AC8AD1666461B007164DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495AC8AC1666461B007164DA /* Foundation.framework */; };
+		495AC8AF1666461B007164DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495AC8AE1666461B007164DA /* CoreGraphics.framework */; };
+		495AC8B51666461B007164DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 495AC8B31666461B007164DA /* InfoPlist.strings */; };
+		495AC8B71666461B007164DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 495AC8B61666461B007164DA /* main.m */; };
+		495AC8BB1666461B007164DA /* WTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 495AC8BA1666461B007164DA /* WTAppDelegate.m */; };
+		495AC8BD1666461B007164DA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 495AC8BC1666461B007164DA /* Default.png */; };
+		495AC8BF1666461B007164DA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 495AC8BE1666461B007164DA /* Default@2x.png */; };
+		495AC8C11666461B007164DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 495AC8C01666461B007164DA /* Default-568h@2x.png */; };
+		495AC8C41666461B007164DA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495AC8C21666461B007164DA /* MainStoryboard.storyboard */; };
+		495AC8C71666461B007164DA /* WTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 495AC8C61666461B007164DA /* WTViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		495AC8A61666461B007164DA /* WTGlyphFontSetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTGlyphFontSetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		495AC8AA1666461B007164DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		495AC8AC1666461B007164DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		495AC8AE1666461B007164DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		495AC8B21666461B007164DA /* WTGlyphFontSetDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WTGlyphFontSetDemo-Info.plist"; sourceTree = "<group>"; };
+		495AC8B41666461B007164DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		495AC8B61666461B007164DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		495AC8B81666461B007164DA /* WTGlyphFontSetDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WTGlyphFontSetDemo-Prefix.pch"; sourceTree = "<group>"; };
+		495AC8B91666461B007164DA /* WTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTAppDelegate.h; sourceTree = "<group>"; };
+		495AC8BA1666461B007164DA /* WTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTAppDelegate.m; sourceTree = "<group>"; };
+		495AC8BC1666461B007164DA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		495AC8BE1666461B007164DA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		495AC8C01666461B007164DA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		495AC8C31666461B007164DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		495AC8C51666461B007164DA /* WTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTViewController.h; sourceTree = "<group>"; };
+		495AC8C61666461B007164DA /* WTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		495AC8A31666461B007164DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495AC8AB1666461B007164DA /* UIKit.framework in Frameworks */,
+				495AC8AD1666461B007164DA /* Foundation.framework in Frameworks */,
+				495AC8AF1666461B007164DA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		495AC89B1666461B007164DA = {
+			isa = PBXGroup;
+			children = (
+				495AC8B01666461B007164DA /* WTGlyphFontSetDemo */,
+				495AC8A91666461B007164DA /* Frameworks */,
+				495AC8A71666461B007164DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		495AC8A71666461B007164DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				495AC8A61666461B007164DA /* WTGlyphFontSetDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		495AC8A91666461B007164DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				495AC8AA1666461B007164DA /* UIKit.framework */,
+				495AC8AC1666461B007164DA /* Foundation.framework */,
+				495AC8AE1666461B007164DA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		495AC8B01666461B007164DA /* WTGlyphFontSetDemo */ = {
+			isa = PBXGroup;
+			children = (
+				495AC8B91666461B007164DA /* WTAppDelegate.h */,
+				495AC8BA1666461B007164DA /* WTAppDelegate.m */,
+				495AC8C21666461B007164DA /* MainStoryboard.storyboard */,
+				495AC8C51666461B007164DA /* WTViewController.h */,
+				495AC8C61666461B007164DA /* WTViewController.m */,
+				495AC8B11666461B007164DA /* Supporting Files */,
+			);
+			path = WTGlyphFontSetDemo;
+			sourceTree = "<group>";
+		};
+		495AC8B11666461B007164DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				495AC8B21666461B007164DA /* WTGlyphFontSetDemo-Info.plist */,
+				495AC8B31666461B007164DA /* InfoPlist.strings */,
+				495AC8B61666461B007164DA /* main.m */,
+				495AC8B81666461B007164DA /* WTGlyphFontSetDemo-Prefix.pch */,
+				495AC8BC1666461B007164DA /* Default.png */,
+				495AC8BE1666461B007164DA /* Default@2x.png */,
+				495AC8C01666461B007164DA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		495AC8A51666461B007164DA /* WTGlyphFontSetDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495AC8CA1666461B007164DA /* Build configuration list for PBXNativeTarget "WTGlyphFontSetDemo" */;
+			buildPhases = (
+				495AC8A21666461B007164DA /* Sources */,
+				495AC8A31666461B007164DA /* Frameworks */,
+				495AC8A41666461B007164DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTGlyphFontSetDemo;
+			productName = WTGlyphFontSetDemo;
+			productReference = 495AC8A61666461B007164DA /* WTGlyphFontSetDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		495AC89D1666461B007164DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "First Water Tech Ltd";
+			};
+			buildConfigurationList = 495AC8A01666461B007164DA /* Build configuration list for PBXProject "WTGlyphFontSetDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 495AC89B1666461B007164DA;
+			productRefGroup = 495AC8A71666461B007164DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				495AC8A51666461B007164DA /* WTGlyphFontSetDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		495AC8A41666461B007164DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495AC8B51666461B007164DA /* InfoPlist.strings in Resources */,
+				495AC8BD1666461B007164DA /* Default.png in Resources */,
+				495AC8BF1666461B007164DA /* Default@2x.png in Resources */,
+				495AC8C11666461B007164DA /* Default-568h@2x.png in Resources */,
+				495AC8C41666461B007164DA /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		495AC8A21666461B007164DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495AC8B71666461B007164DA /* main.m in Sources */,
+				495AC8BB1666461B007164DA /* WTAppDelegate.m in Sources */,
+				495AC8C71666461B007164DA /* WTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		495AC8B31666461B007164DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				495AC8B41666461B007164DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		495AC8C21666461B007164DA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				495AC8C31666461B007164DA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		495AC8C81666461B007164DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		495AC8C91666461B007164DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		495AC8CB1666461B007164DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WTGlyphFontSetDemo/WTGlyphFontSetDemo-Prefix.pch";
+				INFOPLIST_FILE = "WTGlyphFontSetDemo/WTGlyphFontSetDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		495AC8CC1666461B007164DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WTGlyphFontSetDemo/WTGlyphFontSetDemo-Prefix.pch";
+				INFOPLIST_FILE = "WTGlyphFontSetDemo/WTGlyphFontSetDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		495AC8A01666461B007164DA /* Build configuration list for PBXProject "WTGlyphFontSetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495AC8C81666461B007164DA /* Debug */,
+				495AC8C91666461B007164DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495AC8CA1666461B007164DA /* Build configuration list for PBXNativeTarget "WTGlyphFontSetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495AC8CB1666461B007164DA /* Debug */,
+				495AC8CC1666461B007164DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 495AC89D1666461B007164DA /* Project object */;
+}

@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>glass</key> 
+    <string>&#xf000;</string>
+    
+    <key>music</key> 
+    <string>&#xf001;</string>
+    
+    <key>search</key> 
+    <string>&#xf002;</string>
+    
+    <key>envelope</key> 
+    <string>&#xf003;</string>
+    
+    <key>heart</key> 
+    <string>&#xf004;</string>
+    
+    <key>star</key> 
+    <string>&#xf005;</string>
+    
+    <key>star-empty</key> 
+    <string>&#xf006;</string>
+    
+    <key>user</key> 
+    <string>&#xf007;</string>
+    
+    <key>film</key> 
+    <string>&#xf008;</string>
+    
+    <key>th-large</key> 
+    <string>&#xf009;</string>
+    
+    <key>th</key> 
+    <string>&#xf00a;</string>
+    
+    <key>th-list</key> 
+    <string>&#xf00b;</string>
+    
+    <key>ok</key> 
+    <string>&#xf00c;</string>
+    
+    <key>remove</key> 
+    <string>&#xf00d;</string>
+    
+    <key>zoom-in</key> 
+    <string>&#xf00e;</string>
+    
+    <key>zoom-out</key> 
+    <string>&#xf010;</string>
+    
+    <key>off</key> 
+    <string>&#xf011;</string>
+    
+    <key>signal</key> 
+    <string>&#xf012;</string>
+    
+    <key>cog</key> 
+    <string>&#xf013;</string>
+    
+    <key>trash</key> 
+    <string>&#xf014;</string>
+    
+    <key>home</key> 
+    <string>&#xf015;</string>
+    
+    <key>file</key> 
+    <string>&#xf016;</string>
+    
+    <key>time</key> 
+    <string>&#xf017;</string>
+    
+    <key>road</key> 
+    <string>&#xf018;</string>
+    
+    <key>download-alt</key> 
+    <string>&#xf019;</string>
+    
+    <key>download</key> 
+    <string>&#xf01a;</string>
+    
+    <key>upload</key> 
+    <string>&#xf01b;</string>
+    
+    <key>inbox</key> 
+    <string>&#xf01c;</string>
+    
+    <key>play-circle</key> 
+    <string>&#xf01d;</string>
+    
+    <key>repeat</key> 
+    <string>&#xf01e;</string>
+    
+    <key>refresh</key> 
+    <string>&#xf021;</string>
+    
+    <key>list-alt</key> 
+    <string>&#xf022;</string>
+    
+    <key>lock</key> 
+    <string>&#xf023;</string>
+    
+    <key>flag</key> 
+    <string>&#xf024;</string>
+    
+    <key>headphones</key> 
+    <string>&#xf025;</string>
+    
+    <key>volume-off</key> 
+    <string>&#xf026;</string>
+    
+    <key>volume-down</key> 
+    <string>&#xf027;</string>
+    
+    <key>volume-up</key> 
+    <string>&#xf028;</string>
+    
+    <key>qrcode</key> 
+    <string>&#xf029;</string>
+    
+    <key>barcode</key> 
+    <string>&#xf02a;</string>
+    
+    <key>tag</key> 
+    <string>&#xf02b;</string>
+    
+    <key>tags</key> 
+    <string>&#xf02c;</string>
+    
+    <key>book</key> 
+    <string>&#xf02d;</string>
+    
+    <key>bookmark</key> 
+    <string>&#xf02e;</string>
+    
+    <key>print</key> 
+    <string>&#xf02f;</string>
+    
+    <key>camera</key> 
+    <string>&#xf030;</string>
+    
+    <key>font</key> 
+    <string>&#xf031;</string>
+    
+    <key>bold</key> 
+    <string>&#xf032;</string>
+    
+    <key>italic</key> 
+    <string>&#xf033;</string>
+    
+    <key>text-height</key> 
+    <string>&#xf034;</string>
+    
+    <key>text-width</key> 
+    <string>&#xf035;</string>
+    
+    <key>align-left</key> 
+    <string>&#xf036;</string>
+    
+    <key>align-center</key> 
+    <string>&#xf037;</string>
+    
+    <key>align-right</key> 
+    <string>&#xf038;</string>
+    
+    <key>align-justify</key> 
+    <string>&#xf039;</string>
+    
+    <key>list</key> 
+    <string>&#xf03a;</string>
+    
+    <key>indent-left</key> 
+    <string>&#xf03b;</string>
+    
+    <key>indent-right</key> 
+    <string>&#xf03c;</string>
+    
+    <key>facetime-video</key> 
+    <string>&#xf03d;</string>
+    
+    <key>picture</key> 
+    <string>&#xf03e;</string>
+    
+    <key>pencil</key> 
+    <string>&#xf040;</string>
+    
+    <key>map-marker</key> 
+    <string>&#xf041;</string>
+    
+    <key>adjust</key> 
+    <string>&#xf042;</string>
+    
+    <key>tint</key> 
+    <string>&#xf043;</string>
+    
+    <key>edit</key> 
+    <string>&#xf044;</string>
+    
+    <key>share</key> 
+    <string>&#xf045;</string>
+    
+    <key>check</key> 
+    <string>&#xf046;</string>
+    
+    <key>move</key> 
+    <string>&#xf047;</string>
+    
+    <key>step-backward</key> 
+    <string>&#xf048;</string>
+    
+    <key>fast-backward</key> 
+    <string>&#xf049;</string>
+    
+    <key>backward</key> 
+    <string>&#xf04a;</string>
+    
+    <key>play</key> 
+    <string>&#xf04b;</string>
+    
+    <key>pause</key> 
+    <string>&#xf04c;</string>
+    
+    <key>stop</key> 
+    <string>&#xf04d;</string>
+    
+    <key>forward</key> 
+    <string>&#xf04e;</string>
+    
+    <key>fast-forward</key> 
+    <string>&#xf050;</string>
+    
+    <key>step-forward</key> 
+    <string>&#xf051;</string>
+    
+    <key>eject</key> 
+    <string>&#xf052;</string>
+    
+    <key>chevron-left</key> 
+    <string>&#xf053;</string>
+    
+    <key>chevron-right</key> 
+    <string>&#xf054;</string>
+    
+    <key>plus-sign</key> 
+    <string>&#xf055;</string>
+    
+    <key>minus-sign</key> 
+    <string>&#xf056;</string>
+    
+    <key>remove-sign</key> 
+    <string>&#xf057;</string>
+    
+    <key>ok-sign</key> 
+    <string>&#xf058;</string>
+    
+    <key>question-sign</key> 
+    <string>&#xf059;</string>
+    
+    <key>info-sign</key> 
+    <string>&#xf05a;</string>
+    
+    <key>screenshot</key> 
+    <string>&#xf05b;</string>
+    
+    <key>remove-circle</key> 
+    <string>&#xf05c;</string>
+    
+    <key>ok-circle</key> 
+    <string>&#xf05d;</string>
+    
+    <key>ban-circle</key> 
+    <string>&#xf05e;</string>
+    
+    <key>arrow-left</key> 
+    <string>&#xf060;</string>
+    
+    <key>arrow-right</key> 
+    <string>&#xf061;</string>
+    
+    <key>arrow-up</key> 
+    <string>&#xf062;</string>
+    
+    <key>arrow-down</key> 
+    <string>&#xf063;</string>
+    
+    <key>share-alt</key> 
+    <string>&#xf064;</string>
+    
+    <key>resize-full</key> 
+    <string>&#xf065;</string>
+    
+    <key>resize-small</key> 
+    <string>&#xf066;</string>
+    
+    <key>plus</key> 
+    <string>&#xf067;</string>
+    
+    <key>minus</key> 
+    <string>&#xf068;</string>
+    
+    <key>asterisk</key> 
+    <string>&#xf069;</string>
+    
+    <key>exclamation-sign</key> 
+    <string>&#xf06a;</string>
+    
+    <key>gift</key> 
+    <string>&#xf06b;</string>
+    
+    <key>leaf</key> 
+    <string>&#xf06c;</string>
+    
+    <key>fire</key> 
+    <string>&#xf06d;</string>
+    
+    <key>eye-open</key> 
+    <string>&#xf06e;</string>
+    
+    <key>eye-close</key> 
+    <string>&#xf070;</string>
+    
+    <key>warning-sign</key> 
+    <string>&#xf071;</string>
+    
+    <key>plane</key> 
+    <string>&#xf072;</string>
+    
+    <key>calendar</key> 
+    <string>&#xf073;</string>
+    
+    <key>random</key> 
+    <string>&#xf074;</string>
+    
+    <key>comment</key> 
+    <string>&#xf075;</string>
+    
+    <key>magnet</key> 
+    <string>&#xf076;</string>
+    
+    <key>chevron-up</key> 
+    <string>&#xf077;</string>
+    
+    <key>chevron-down</key> 
+    <string>&#xf078;</string>
+    
+    <key>retweet</key> 
+    <string>&#xf079;</string>
+    
+    <key>shopping-cart</key> 
+    <string>&#xf07a;</string>
+    
+    <key>folder-close</key> 
+    <string>&#xf07b;</string>
+    
+    <key>folder-open</key> 
+    <string>&#xf07c;</string>
+    
+    <key>resize-vertical</key> 
+    <string>&#xf07d;</string>
+    
+    <key>resize-horizontal</key> 
+    <string>&#xf07e;</string>
+    
+    <key>bar-chart</key> 
+    <string>&#xf080;</string>
+    
+    <key>twitter-sign</key> 
+    <string>&#xf081;</string>
+    
+    <key>facebook-sign</key> 
+    <string>&#xf082;</string>
+    
+    <key>camera-retro</key> 
+    <string>&#xf083;</string>
+    
+    <key>key</key> 
+    <string>&#xf084;</string>
+    
+    <key>cogs</key> 
+    <string>&#xf085;</string>
+    
+    <key>comments</key> 
+    <string>&#xf086;</string>
+    
+    <key>thumbs-up</key> 
+    <string>&#xf087;</string>
+    
+    <key>thumbs-down</key> 
+    <string>&#xf088;</string>
+    
+    <key>star-half</key> 
+    <string>&#xf089;</string>
+    
+    <key>heart-empty</key> 
+    <string>&#xf08a;</string>
+    
+    <key>signout</key> 
+    <string>&#xf08b;</string>
+    
+    <key>linkedin-sign</key> 
+    <string>&#xf08c;</string>
+    
+    <key>pushpin</key> 
+    <string>&#xf08d;</string>
+    
+    <key>external-link</key> 
+    <string>&#xf08e;</string>
+    
+    <key>signin</key> 
+    <string>&#xf090;</string>
+    
+    <key>trophy</key> 
+    <string>&#xf091;</string>
+    
+    <key>github-sign</key> 
+    <string>&#xf092;</string>
+    
+    <key>upload-alt</key> 
+    <string>&#xf093;</string>
+    
+    <key>lemon</key> 
+    <string>&#xf094;</string>
+    
+    <key>phone</key> 
+    <string>&#xf095;</string>
+    
+    <key>check-empty</key> 
+    <string>&#xf096;</string>
+    
+    <key>bookmark-empty</key> 
+    <string>&#xf097;</string>
+    
+    <key>phone-sign</key> 
+    <string>&#xf098;</string>
+    
+    <key>twitter</key> 
+    <string>&#xf099;</string>
+    
+    <key>facebook</key> 
+    <string>&#xf09a;</string>
+    
+    <key>github</key> 
+    <string>&#xf09b;</string>
+    
+    <key>unlock</key> 
+    <string>&#xf09c;</string>
+    
+    <key>credit-card</key> 
+    <string>&#xf09d;</string>
+    
+    <key>rss</key> 
+    <string>&#xf09e;</string>
+    
+    <key>hdd</key> 
+    <string>&#xf0a0;</string>
+    
+    <key>bullhorn</key> 
+    <string>&#xf0a1;</string>
+    
+    <key>bell</key> 
+    <string>&#xf0a2;</string>
+    
+    <key>certificate</key> 
+    <string>&#xf0a3;</string>
+    
+    <key>hand-right</key> 
+    <string>&#xf0a4;</string>
+    
+    <key>hand-left</key> 
+    <string>&#xf0a5;</string>
+    
+    <key>hand-up</key> 
+    <string>&#xf0a6;</string>
+    
+    <key>hand-down</key> 
+    <string>&#xf0a7;</string>
+    
+    <key>circle-arrow-left</key> 
+    <string>&#xf0a8;</string>
+    
+    <key>circle-arrow-right</key> 
+    <string>&#xf0a9;</string>
+    
+    <key>circle-arrow-up</key> 
+    <string>&#xf0aa;</string>
+    
+    <key>circle-arrow-down</key> 
+    <string>&#xf0ab;</string>
+    
+    <key>globe</key> 
+    <string>&#xf0ac;</string>
+    
+    <key>wrench</key> 
+    <string>&#xf0ad;</string>
+    
+    <key>tasks</key> 
+    <string>&#xf0ae;</string>
+    
+    <key>filter</key> 
+    <string>&#xf0b0;</string>
+    
+    <key>briefcase</key> 
+    <string>&#xf0b1;</string>
+    
+    <key>fullscreen</key> 
+    <string>&#xf0b2;</string>
+    
+    <key>group</key> 
+    <string>&#xf0c0;</string>
+    
+    <key>link</key> 
+    <string>&#xf0c1;</string>
+    
+    <key>cloud</key> 
+    <string>&#xf0c2;</string>
+    
+    <key>beaker</key> 
+    <string>&#xf0c3;</string>
+    
+    <key>cut</key> 
+    <string>&#xf0c4;</string>
+    
+    <key>copy</key> 
+    <string>&#xf0c5;</string>
+    
+    <key>paper-clip</key> 
+    <string>&#xf0c6;</string>
+    
+    <key>save</key> 
+    <string>&#xf0c7;</string>
+    
+    <key>sign-blank</key> 
+    <string>&#xf0c8;</string>
+    
+    <key>reorder</key> 
+    <string>&#xf0c9;</string>
+    
+    <key>list-ul</key> 
+    <string>&#xf0ca;</string>
+    
+    <key>list-ol</key> 
+    <string>&#xf0cb;</string>
+    
+    <key>strikethrough</key> 
+    <string>&#xf0cc;</string>
+    
+    <key>underline</key> 
+    <string>&#xf0cd;</string>
+    
+    <key>table</key> 
+    <string>&#xf0ce;</string>
+    
+    <key>magic</key> 
+    <string>&#xf0d0;</string>
+    
+    <key>truck</key> 
+    <string>&#xf0d1;</string>
+    
+    <key>pinterest</key> 
+    <string>&#xf0d2;</string>
+    
+    <key>pinterest-sign</key> 
+    <string>&#xf0d3;</string>
+    
+    <key>google-plus-sign</key> 
+    <string>&#xf0d4;</string>
+    
+    <key>google-plus</key> 
+    <string>&#xf0d5;</string>
+    
+    <key>money</key> 
+    <string>&#xf0d6;</string>
+    
+    <key>caret-down</key> 
+    <string>&#xf0d7;</string>
+    
+    <key>caret-up</key> 
+    <string>&#xf0d8;</string>
+    
+    <key>caret-left</key> 
+    <string>&#xf0d9;</string>
+    
+    <key>caret-right</key> 
+    <string>&#xf0da;</string>
+    
+    <key>columns</key> 
+    <string>&#xf0db;</string>
+    
+    <key>sort</key> 
+    <string>&#xf0dc;</string>
+    
+    <key>sort-down</key> 
+    <string>&#xf0dd;</string>
+    
+    <key>sort-up</key> 
+    <string>&#xf0de;</string>
+    
+    <key>envelope-alt</key> 
+    <string>&#xf0e0;</string>
+    
+    <key>linkedin</key> 
+    <string>&#xf0e1;</string>
+    
+    <key>undo</key> 
+    <string>&#xf0e2;</string>
+    
+    <key>legal</key> 
+    <string>&#xf0e3;</string>
+    
+    <key>dashboard</key> 
+    <string>&#xf0e4;</string>
+    
+    <key>comment-alt</key> 
+    <string>&#xf0e5;</string>
+    
+    <key>comments-alt</key> 
+    <string>&#xf0e6;</string>
+    
+    <key>bolt</key> 
+    <string>&#xf0e7;</string>
+    
+    <key>sitemap</key> 
+    <string>&#xf0e8;</string>
+    
+    <key>umbrella</key> 
+    <string>&#xf0e9;</string>
+    
+    <key>paste</key> 
+    <string>&#xf0ea;</string>
+    
+    <key>user-md</key> 
+    <string>&#xf200;</string>
+    
+
+</dict>
+</plist>

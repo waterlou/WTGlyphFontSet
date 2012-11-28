@@ -7,11 +7,14 @@
 //
 
 #import "WTAppDelegate.h"
+#import "WTGlyphFontSet.h"
 
 @implementation WTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [WTGlyphFontSet loadFont:@"fontawesome" filename:@"fontawesome.ttf"];
+    
     // Override point for customization after application launch.
     return YES;
 }

@@ -18,6 +18,10 @@
 		495AC8C11666461B007164DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 495AC8C01666461B007164DA /* Default-568h@2x.png */; };
 		495AC8C41666461B007164DA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495AC8C21666461B007164DA /* MainStoryboard.storyboard */; };
 		495AC8C71666461B007164DA /* WTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 495AC8C61666461B007164DA /* WTViewController.m */; };
+		495AC8CF1666464A007164DA /* WTGlyphFontSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 495AC8CE1666464A007164DA /* WTGlyphFontSet.m */; };
+		495AC8D316664690007164DA /* fontawesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 495AC8D216664690007164DA /* fontawesome.ttf */; };
+		495AC8D51666476A007164DA /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495AC8D41666476A007164DA /* CoreText.framework */; };
+		495AC8D71666689A007164DA /* fontawesome.plist in Resources */ = {isa = PBXBuildFile; fileRef = 495AC8D61666689A007164DA /* fontawesome.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,11 @@
 		495AC8C31666461B007164DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		495AC8C51666461B007164DA /* WTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTViewController.h; sourceTree = "<group>"; };
 		495AC8C61666461B007164DA /* WTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTViewController.m; sourceTree = "<group>"; };
+		495AC8CD1666464A007164DA /* WTGlyphFontSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WTGlyphFontSet.h; path = WTGlyphFontSet/WTGlyphFontSet.h; sourceTree = "<group>"; };
+		495AC8CE1666464A007164DA /* WTGlyphFontSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WTGlyphFontSet.m; path = WTGlyphFontSet/WTGlyphFontSet.m; sourceTree = "<group>"; };
+		495AC8D216664690007164DA /* fontawesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontawesome.ttf; sourceTree = "<group>"; };
+		495AC8D41666476A007164DA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		495AC8D61666689A007164DA /* fontawesome.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fontawesome.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				495AC8D51666476A007164DA /* CoreText.framework in Frameworks */,
 				495AC8AB1666461B007164DA /* UIKit.framework in Frameworks */,
 				495AC8AD1666461B007164DA /* Foundation.framework in Frameworks */,
 				495AC8AF1666461B007164DA /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +66,8 @@
 		495AC89B1666461B007164DA = {
 			isa = PBXGroup;
 			children = (
+				495AC8D116664690007164DA /* fontawesome */,
+				495AC8D01666465B007164DA /* WTGlyphFontSet */,
 				495AC8B01666461B007164DA /* WTGlyphFontSetDemo */,
 				495AC8A91666461B007164DA /* Frameworks */,
 				495AC8A71666461B007164DA /* Products */,
@@ -73,6 +85,7 @@
 		495AC8A91666461B007164DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				495AC8D41666476A007164DA /* CoreText.framework */,
 				495AC8AA1666461B007164DA /* UIKit.framework */,
 				495AC8AC1666461B007164DA /* Foundation.framework */,
 				495AC8AE1666461B007164DA /* CoreGraphics.framework */,
@@ -105,6 +118,24 @@
 				495AC8C01666461B007164DA /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		495AC8D01666465B007164DA /* WTGlyphFontSet */ = {
+			isa = PBXGroup;
+			children = (
+				495AC8CD1666464A007164DA /* WTGlyphFontSet.h */,
+				495AC8CE1666464A007164DA /* WTGlyphFontSet.m */,
+			);
+			name = WTGlyphFontSet;
+			sourceTree = "<group>";
+		};
+		495AC8D116664690007164DA /* fontawesome */ = {
+			isa = PBXGroup;
+			children = (
+				495AC8D216664690007164DA /* fontawesome.ttf */,
+				495AC8D61666689A007164DA /* fontawesome.plist */,
+			);
+			path = fontawesome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +195,8 @@
 				495AC8BF1666461B007164DA /* Default@2x.png in Resources */,
 				495AC8C11666461B007164DA /* Default-568h@2x.png in Resources */,
 				495AC8C41666461B007164DA /* MainStoryboard.storyboard in Resources */,
+				495AC8D316664690007164DA /* fontawesome.ttf in Resources */,
+				495AC8D71666689A007164DA /* fontawesome.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +210,7 @@
 				495AC8B71666461B007164DA /* main.m in Sources */,
 				495AC8BB1666461B007164DA /* WTAppDelegate.m in Sources */,
 				495AC8C71666461B007164DA /* WTViewController.m in Sources */,
+				495AC8CF1666464A007164DA /* WTGlyphFontSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

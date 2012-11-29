@@ -9,6 +9,13 @@
 #import <Foundation/Foundation.h>
 #import <CoreText/CoreText.h>
 
+typedef NS_ENUM(NSInteger, NSVerticalTextAlignment) {
+    NSVerticalTextAlignmentTop      = 0,    // Visually top aligned
+    NSVerticalTextAlignmentCenter    = 1,    // Visually centered
+    NSVerticalTextAlignmentBottom     = 2,    // Visually bottom aligned
+    NSVerticalTextAlignmentDefault     = 3,    // Not calculate the text bounds, use default baseline
+};
+
 @interface WTGlyphFontSet : NSObject
 
 @property (nonatomic, readonly) CTFontRef font;
@@ -17,6 +24,12 @@
 + (WTGlyphFontSet*) fontSet : (NSString*) fontname;
 
 - (void)drawAtRect:(CGRect)rect name:(NSString*)name color : (UIColor*)color;
-- (UIImage*) image : (CGSize)size name : (NSString*)name color : (UIColor*)color inset : (CGFloat) inset;
+- (void)drawAtRect : (CGRect)rect name : (NSString*)name color : (UIColor*)color
+         alignment : (NSTextAlignment) alignment verticalAlignment : (NSVerticalTextAlignment) verticalAlignment;
+
+
+- (UIImage*) image : (CGSize)size name : (NSString*)name color : (UIColor*)color;
+- (UIImage*) image : (CGSize)size name : (NSString*)name color : (UIColor*)color inset : (CGFloat) inset
+         alignment : (NSTextAlignment) alignment verticalAlignment : (NSVerticalTextAlignment) verticalAlignment;
 
 @end

@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4918AC491666ECB60016CF63 /* iconic_fill.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4918AC461666ECB60016CF63 /* iconic_fill.plist */; };
+		4918AC4A1666ECB60016CF63 /* iconic_stroke.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4918AC471666ECB60016CF63 /* iconic_stroke.ttf */; };
+		4918AC4B1666ECB60016CF63 /* iconic_fill.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4918AC481666ECB60016CF63 /* iconic_fill.ttf */; };
+		4918AC4D1666EDCF0016CF63 /* iconic_stroke.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4918AC4C1666EDCF0016CF63 /* iconic_stroke.plist */; };
+		4918AC5D1666F6D50016CF63 /* entypo-social.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4918AC591666F6D50016CF63 /* entypo-social.plist */; };
+		4918AC5E1666F6D50016CF63 /* entypo-social.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4918AC5A1666F6D50016CF63 /* entypo-social.ttf */; };
+		4918AC601666F6D50016CF63 /* entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4918AC5C1666F6D50016CF63 /* entypo.ttf */; };
+		4918AC691666F6E20016CF63 /* social_foundicons.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4918AC611666F6E20016CF63 /* social_foundicons.plist */; };
+		4918AC6A1666F6E20016CF63 /* general_foundicons.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4918AC621666F6E20016CF63 /* general_foundicons.plist */; };
+		4918AC6B1666F6E20016CF63 /* general_enclosed_foundicons.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4918AC631666F6E20016CF63 /* general_enclosed_foundicons.plist */; };
+		4918AC6C1666F6E20016CF63 /* accessibility_foundicons.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4918AC641666F6E20016CF63 /* accessibility_foundicons.plist */; };
+		4918AC6D1666F6E20016CF63 /* social_foundicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4918AC651666F6E20016CF63 /* social_foundicons.ttf */; };
+		4918AC6E1666F6E20016CF63 /* general_enclosed_foundicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4918AC661666F6E20016CF63 /* general_enclosed_foundicons.ttf */; };
+		4918AC6F1666F6E20016CF63 /* general_foundicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4918AC671666F6E20016CF63 /* general_foundicons.ttf */; };
+		4918AC701666F6E20016CF63 /* accessibility_foundicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4918AC681666F6E20016CF63 /* accessibility_foundicons.ttf */; };
+		4918AC72166701CC0016CF63 /* entypo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4918AC5B1666F6D50016CF63 /* entypo.plist */; };
+		4918AC84166707200016CF63 /* WTFontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4918AC82166707200016CF63 /* WTFontViewController.m */; };
+		4918AC85166707200016CF63 /* WTFontViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4918AC83166707200016CF63 /* WTFontViewController.xib */; };
+		4918ACB0166764200016CF63 /* heydings_icons.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4918ACAE166764200016CF63 /* heydings_icons.plist */; };
+		4918ACB1166764200016CF63 /* heydings_icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4918ACAF166764200016CF63 /* heydings_icons.ttf */; };
+		4918ACB5166769CC0016CF63 /* modernpics.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4918ACB3166769CC0016CF63 /* modernpics.otf */; };
+		4918ACB6166769CC0016CF63 /* modernpics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4918ACB4166769CC0016CF63 /* modernpics.plist */; };
 		495AC8AB1666461B007164DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495AC8AA1666461B007164DA /* UIKit.framework */; };
 		495AC8AD1666461B007164DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495AC8AC1666461B007164DA /* Foundation.framework */; };
 		495AC8AF1666461B007164DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495AC8AE1666461B007164DA /* CoreGraphics.framework */; };
@@ -25,6 +47,32 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4918AC461666ECB60016CF63 /* iconic_fill.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = iconic_fill.plist; path = iconic/iconic_fill.plist; sourceTree = "<group>"; };
+		4918AC471666ECB60016CF63 /* iconic_stroke.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = iconic_stroke.ttf; path = iconic/iconic_stroke.ttf; sourceTree = "<group>"; };
+		4918AC481666ECB60016CF63 /* iconic_fill.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = iconic_fill.ttf; path = iconic/iconic_fill.ttf; sourceTree = "<group>"; };
+		4918AC4C1666EDCF0016CF63 /* iconic_stroke.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = iconic_stroke.plist; path = iconic/iconic_stroke.plist; sourceTree = "<group>"; };
+		4918AC501666EDF30016CF63 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = iconic/LICENSE; sourceTree = "<group>"; };
+		4918AC521666EE100016CF63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		4918AC591666F6D50016CF63 /* entypo-social.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "entypo-social.plist"; sourceTree = "<group>"; };
+		4918AC5A1666F6D50016CF63 /* entypo-social.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "entypo-social.ttf"; sourceTree = "<group>"; };
+		4918AC5B1666F6D50016CF63 /* entypo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = entypo.plist; sourceTree = "<group>"; };
+		4918AC5C1666F6D50016CF63 /* entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = entypo.ttf; sourceTree = "<group>"; };
+		4918AC611666F6E20016CF63 /* social_foundicons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = social_foundicons.plist; path = foundation/social_foundicons.plist; sourceTree = "<group>"; };
+		4918AC621666F6E20016CF63 /* general_foundicons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = general_foundicons.plist; path = foundation/general_foundicons.plist; sourceTree = "<group>"; };
+		4918AC631666F6E20016CF63 /* general_enclosed_foundicons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = general_enclosed_foundicons.plist; path = foundation/general_enclosed_foundicons.plist; sourceTree = "<group>"; };
+		4918AC641666F6E20016CF63 /* accessibility_foundicons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = accessibility_foundicons.plist; path = foundation/accessibility_foundicons.plist; sourceTree = "<group>"; };
+		4918AC651666F6E20016CF63 /* social_foundicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = social_foundicons.ttf; path = foundation/social_foundicons.ttf; sourceTree = "<group>"; };
+		4918AC661666F6E20016CF63 /* general_enclosed_foundicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = general_enclosed_foundicons.ttf; path = foundation/general_enclosed_foundicons.ttf; sourceTree = "<group>"; };
+		4918AC671666F6E20016CF63 /* general_foundicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = general_foundicons.ttf; path = foundation/general_foundicons.ttf; sourceTree = "<group>"; };
+		4918AC681666F6E20016CF63 /* accessibility_foundicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = accessibility_foundicons.ttf; path = foundation/accessibility_foundicons.ttf; sourceTree = "<group>"; };
+		4918AC81166707200016CF63 /* WTFontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTFontViewController.h; sourceTree = "<group>"; };
+		4918AC82166707200016CF63 /* WTFontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTFontViewController.m; sourceTree = "<group>"; };
+		4918AC83166707200016CF63 /* WTFontViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTFontViewController.xib; sourceTree = "<group>"; };
+		4918ACAE166764200016CF63 /* heydings_icons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = heydings_icons.plist; sourceTree = "<group>"; };
+		4918ACAF166764200016CF63 /* heydings_icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = heydings_icons.ttf; sourceTree = "<group>"; };
+		4918ACB3166769CC0016CF63 /* modernpics.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = modernpics.otf; sourceTree = "<group>"; };
+		4918ACB4166769CC0016CF63 /* modernpics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = modernpics.plist; sourceTree = "<group>"; };
+		4918ACB7166775700016CF63 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.mdown; sourceTree = "<group>"; };
 		495AC8A61666461B007164DA /* WTGlyphFontSetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTGlyphFontSetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		495AC8AA1666461B007164DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		495AC8AC1666461B007164DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,10 +111,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4918AC441666EC350016CF63 /* iconic */ = {
+			isa = PBXGroup;
+			children = (
+				4918AC501666EDF30016CF63 /* LICENSE */,
+				4918AC4C1666EDCF0016CF63 /* iconic_stroke.plist */,
+				4918AC461666ECB60016CF63 /* iconic_fill.plist */,
+				4918AC471666ECB60016CF63 /* iconic_stroke.ttf */,
+				4918AC481666ECB60016CF63 /* iconic_fill.ttf */,
+			);
+			name = iconic;
+			sourceTree = "<group>";
+		};
+		4918AC561666F0A30016CF63 /* foundation */ = {
+			isa = PBXGroup;
+			children = (
+				4918AC611666F6E20016CF63 /* social_foundicons.plist */,
+				4918AC621666F6E20016CF63 /* general_foundicons.plist */,
+				4918AC631666F6E20016CF63 /* general_enclosed_foundicons.plist */,
+				4918AC641666F6E20016CF63 /* accessibility_foundicons.plist */,
+				4918AC651666F6E20016CF63 /* social_foundicons.ttf */,
+				4918AC661666F6E20016CF63 /* general_enclosed_foundicons.ttf */,
+				4918AC671666F6E20016CF63 /* general_foundicons.ttf */,
+				4918AC681666F6E20016CF63 /* accessibility_foundicons.ttf */,
+			);
+			name = foundation;
+			sourceTree = "<group>";
+		};
+		4918AC581666F6D50016CF63 /* entypo */ = {
+			isa = PBXGroup;
+			children = (
+				4918AC591666F6D50016CF63 /* entypo-social.plist */,
+				4918AC5A1666F6D50016CF63 /* entypo-social.ttf */,
+				4918AC5B1666F6D50016CF63 /* entypo.plist */,
+				4918AC5C1666F6D50016CF63 /* entypo.ttf */,
+			);
+			path = entypo;
+			sourceTree = "<group>";
+		};
+		4918AC711666F6EA0016CF63 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4918ACB2166769CC0016CF63 /* modernpics */,
+				4918ACAD166764200016CF63 /* heydings_icons */,
+				4918AC581666F6D50016CF63 /* entypo */,
+				4918AC561666F0A30016CF63 /* foundation */,
+				4918AC441666EC350016CF63 /* iconic */,
+				495AC8D116664690007164DA /* fontawesome */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		4918ACAD166764200016CF63 /* heydings_icons */ = {
+			isa = PBXGroup;
+			children = (
+				4918ACAE166764200016CF63 /* heydings_icons.plist */,
+				4918ACAF166764200016CF63 /* heydings_icons.ttf */,
+			);
+			path = heydings_icons;
+			sourceTree = "<group>";
+		};
+		4918ACB2166769CC0016CF63 /* modernpics */ = {
+			isa = PBXGroup;
+			children = (
+				4918ACB3166769CC0016CF63 /* modernpics.otf */,
+				4918ACB4166769CC0016CF63 /* modernpics.plist */,
+			);
+			path = modernpics;
+			sourceTree = "<group>";
+		};
 		495AC89B1666461B007164DA = {
 			isa = PBXGroup;
 			children = (
-				495AC8D116664690007164DA /* fontawesome */,
+				4918ACB7166775700016CF63 /* README.mdown */,
+				4918AC711666F6EA0016CF63 /* Fonts */,
 				495AC8D01666465B007164DA /* WTGlyphFontSet */,
 				495AC8B01666461B007164DA /* WTGlyphFontSetDemo */,
 				495AC8A91666461B007164DA /* Frameworks */,
@@ -102,6 +220,9 @@
 				495AC8C51666461B007164DA /* WTViewController.h */,
 				495AC8C61666461B007164DA /* WTViewController.m */,
 				495AC8B11666461B007164DA /* Supporting Files */,
+				4918AC81166707200016CF63 /* WTFontViewController.h */,
+				4918AC82166707200016CF63 /* WTFontViewController.m */,
+				4918AC83166707200016CF63 /* WTFontViewController.xib */,
 			);
 			path = WTGlyphFontSetDemo;
 			sourceTree = "<group>";
@@ -132,6 +253,7 @@
 		495AC8D116664690007164DA /* fontawesome */ = {
 			isa = PBXGroup;
 			children = (
+				4918AC521666EE100016CF63 /* README.md */,
 				495AC8D216664690007164DA /* fontawesome.ttf */,
 				495AC8D61666689A007164DA /* fontawesome.plist */,
 			);
@@ -197,6 +319,27 @@
 				495AC8C41666461B007164DA /* MainStoryboard.storyboard in Resources */,
 				495AC8D316664690007164DA /* fontawesome.ttf in Resources */,
 				495AC8D71666689A007164DA /* fontawesome.plist in Resources */,
+				4918AC491666ECB60016CF63 /* iconic_fill.plist in Resources */,
+				4918AC4A1666ECB60016CF63 /* iconic_stroke.ttf in Resources */,
+				4918AC4B1666ECB60016CF63 /* iconic_fill.ttf in Resources */,
+				4918AC4D1666EDCF0016CF63 /* iconic_stroke.plist in Resources */,
+				4918AC5D1666F6D50016CF63 /* entypo-social.plist in Resources */,
+				4918AC5E1666F6D50016CF63 /* entypo-social.ttf in Resources */,
+				4918AC601666F6D50016CF63 /* entypo.ttf in Resources */,
+				4918AC691666F6E20016CF63 /* social_foundicons.plist in Resources */,
+				4918AC6A1666F6E20016CF63 /* general_foundicons.plist in Resources */,
+				4918AC6B1666F6E20016CF63 /* general_enclosed_foundicons.plist in Resources */,
+				4918AC6C1666F6E20016CF63 /* accessibility_foundicons.plist in Resources */,
+				4918AC6D1666F6E20016CF63 /* social_foundicons.ttf in Resources */,
+				4918AC6E1666F6E20016CF63 /* general_enclosed_foundicons.ttf in Resources */,
+				4918AC6F1666F6E20016CF63 /* general_foundicons.ttf in Resources */,
+				4918AC701666F6E20016CF63 /* accessibility_foundicons.ttf in Resources */,
+				4918AC72166701CC0016CF63 /* entypo.plist in Resources */,
+				4918AC85166707200016CF63 /* WTFontViewController.xib in Resources */,
+				4918ACB0166764200016CF63 /* heydings_icons.plist in Resources */,
+				4918ACB1166764200016CF63 /* heydings_icons.ttf in Resources */,
+				4918ACB5166769CC0016CF63 /* modernpics.otf in Resources */,
+				4918ACB6166769CC0016CF63 /* modernpics.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +354,7 @@
 				495AC8BB1666461B007164DA /* WTAppDelegate.m in Sources */,
 				495AC8C71666461B007164DA /* WTViewController.m in Sources */,
 				495AC8CF1666464A007164DA /* WTGlyphFontSet.m in Sources */,
+				4918AC84166707200016CF63 /* WTFontViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +436,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WTGlyphFontSetDemo/WTGlyphFontSetDemo-Prefix.pch";
 				INFOPLIST_FILE = "WTGlyphFontSetDemo/WTGlyphFontSetDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -303,7 +449,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WTGlyphFontSetDemo/WTGlyphFontSetDemo-Prefix.pch";
 				INFOPLIST_FILE = "WTGlyphFontSetDemo/WTGlyphFontSetDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -327,6 +475,7 @@
 				495AC8CC1666461B007164DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

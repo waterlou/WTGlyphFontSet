@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>settings</key>
+        <string>&#xf000;</string>
+        
+        
+        <key>heart</key>
+        <string>&#xf001;</string>
+        
+        
+        <key>star</key>
+        <string>&#xf002;</string>
+        
+        
+        <key>plus</key>
+        <string>&#xf003;</string>
+        
+        
+        <key>minus</key>
+        <string>&#xf004;</string>
+        
+        
+        <key>checkmark</key>
+        <string>&#xf005;</string>
+        
+        
+        <key>remove</key>
+        <string>&#xf006;</string>
+        
+        
+        <key>mail</key>
+        <string>&#xf007;</string>
+        
+        
+        <key>calendar</key>
+        <string>&#xf008;</string>
+        
+        
+        <key>page</key>
+        <string>&#xf009;</string>
+        
+        
+        <key>tools</key>
+        <string>&#xf00a;</string>
+        
+        
+        <key>globe</key>
+        <string>&#xf00b;</string>
+        
+        
+        <key>home</key>
+        <string>&#xf00c;</string>
+        
+        
+        <key>quote</key>
+        <string>&#xf00d;</string>
+        
+        
+        <key>people</key>
+        <string>&#xf00e;</string>
+        
+        
+        <key>monitor</key>
+        <string>&#xf00f;</string>
+        
+        
+        <key>laptop</key>
+        <string>&#xf010;</string>
+        
+        
+        <key>phone</key>
+        <string>&#xf011;</string>
+        
+        
+        <key>cloud</key>
+        <string>&#xf012;</string>
+        
+        
+        <key>error</key>
+        <string>&#xf013;</string>
+        
+        
+        <key>right-arrow</key>
+        <string>&#xf014;</string>
+        
+        
+        <key>left-arrow</key>
+        <string>&#xf015;</string>
+        
+        
+        <key>up-arrow</key>
+        <string>&#xf016;</string>
+        
+        
+        <key>down-arrow</key>
+        <string>&#xf017;</string>
+        
+        
+        <key>trash</key>
+        <string>&#xf018;</string>
+        
+        
+        <key>add-doc</key>
+        <string>&#xf019;</string>
+        
+        
+        <key>edit</key>
+        <string>&#xf01a;</string>
+        
+        
+        <key>lock</key>
+        <string>&#xf01b;</string>
+        
+        
+        <key>unlock</key>
+        <string>&#xf01c;</string>
+        
+        
+        <key>refresh</key>
+        <string>&#xf01d;</string>
+        
+        
+        <key>paper-clip</key>
+        <string>&#xf01e;</string>
+        
+        
+        <key>video</key>
+        <string>&#xf01f;</string>
+        
+        
+        <key>photo</key>
+        <string>&#xf020;</string>
+        
+        
+        <key>graph</key>
+        <string>&#xf021;</string>
+        
+        
+        <key>idea</key>
+        <string>&#xf022;</string>
+        
+        
+        <key>mic</key>
+        <string>&#xf023;</string>
+        
+        
+        <key>cart</key>
+        <string>&#xf024;</string>
+        
+        
+        <key>address-book</key>
+        <string>&#xf025;</string>
+        
+        
+        <key>compass</key>
+        <string>&#xf026;</string>
+        
+        
+        <key>flag</key>
+        <string>&#xf027;</string>
+        
+        
+        <key>location</key>
+        <string>&#xf028;</string>
+        
+        
+        
+    </dict>
+</plist>

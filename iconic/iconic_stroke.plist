@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>lightbulb</key>
+    <string>&#xe063;</string>
+    
+   <key>equalizer</key>
+    <string>&#xe052;</string>
+    
+   <key>map_pin_stroke</key>
+    <string>&#xe068;</string>
+    
+   <key>brush_alt</key>
+    <string>&#xe01c;</string>
+    
+   <key>move</key>
+    <string>&#xe03e;</string>
+    
+   <key>paperclip</key>
+    <string>&#xe08a;</string>
+    
+   <key>pen_alt_stroke</key>
+    <string>&#xe005;</string>
+    
+   <key>move_vertical</key>
+    <string>&#xe03b;</string>
+    
+   <key>book_alt2</key>
+    <string>&#xe06a;</string>
+    
+   <key>layers</key>
+    <string>&#xe01f;</string>
+    
+   <key>pause</key>
+    <string>&#xe049;</string>
+    
+   <key>layers_alt</key>
+    <string>&#xe020;</string>
+    
+   <key>cloud_upload</key>
+    <string>&#xe045;</string>
+    
+   <key>chart_alt</key>
+    <string>&#xe029;</string>
+    
+   <key>fullscreen_exit_alt</key>
+    <string>&#xe051;</string>
+    
+   <key>cloud_download</key>
+    <string>&#xe044;</string>
+    
+   <key>comment_alt2_stroke</key>
+    <string>&#xe004;</string>
+    
+   <key>mail</key>
+    <string>&#x2709;</string>
+    
+   <key>check_alt</key>
+    <string>&#x2714;</string>
+    
+   <key>document_stroke</key>
+    <string>&#xe066;</string>
+    
+   <key>battery_charging</key>
+    <string>&#xe05d;</string>
+    
+   <key>stop</key>
+    <string>&#xe04a;</string>
+    
+   <key>arrow_up</key>
+    <string>&#x2191;</string>
+    
+   <key>move_horizontal</key>
+    <string>&#xe038;</string>
+    
+   <key>compass</key>
+    <string>&#xe021;</string>
+    
+   <key>minus_alt</key>
+    <string>&#xe009;</string>
+    
+   <key>battery_empty</key>
+    <string>&#xe05c;</string>
+    
+   <key>map_pin_alt</key>
+    <string>&#xe002;</string>
+    
+   <key>unlock_stroke</key>
+    <string>&#xe076;</string>
+    
+   <key>lock_stroke</key>
+    <string>&#xe075;</string>
+    
+   <key>question_mark</key>
+    <string>&#x003f;</string>
+    
+   <key>list</key>
+    <string>&#xe055;</string>
+    
+   <key>upload</key>
+    <string>&#xe043;</string>
+    
+   <key>reload</key>
+    <string>&#xe030;</string>
+    
+   <key>loop_alt4</key>
+    <string>&#xe035;</string>
+    
+   <key>loop_alt3</key>
+    <string>&#xe034;</string>
+    
+   <key>loop_alt2</key>
+    <string>&#xe033;</string>
+    
+   <key>loop_alt1</key>
+    <string>&#xe032;</string>
+    
+   <key>left_quote</key>
+    <string>&#x275d;</string>
+    
+   <key>x</key>
+    <string>&#x2717;</string>
+    
+   <key>last</key>
+    <string>&#xe04d;</string>
+    
+   <key>document_alt_stroke</key>
+    <string>&#xe000;</string>
+    
+   <key>bars</key>
+    <string>&#xe06f;</string>
+    
+   <key>arrow_left</key>
+    <string>&#x2190;</string>
+    
+   <key>arrow_down</key>
+    <string>&#x2193;</string>
+    
+   <key>download</key>
+    <string>&#xe042;</string>
+    
+   <key>home</key>
+    <string>&#x2302;</string>
+    
+   <key>calendar</key>
+    <string>&#xe001;</string>
+    
+   <key>right_quote_alt</key>
+    <string>&#xe012;</string>
+    
+   <key>fullscreen</key>
+    <string>&#xe04e;</string>
+    
+   <key>dial</key>
+    <string>&#xe058;</string>
+    
+   <key>plus_alt</key>
+    <string>&#xe008;</string>
+    
+   <key>clock</key>
+    <string>&#xe079;</string>
+    
+   <key>movie</key>
+    <string>&#xe060;</string>
+    
+   <key>steering_wheel</key>
+    <string>&#xe024;</string>
+    
+   <key>pen</key>
+    <string>&#x270e;</string>
+    
+   <key>tag_stroke</key>
+    <string>&#xe02b;</string>
+    
+   <key>pin</key>
+    <string>&#xe067;</string>
+    
+   <key>denied</key>
+    <string>&#x26d4;</string>
+    
+   <key>left_quote_alt</key>
+    <string>&#xe011;</string>
+    
+   <key>volume_mute</key>
+    <string>&#xe071;</string>
+    
+   <key>arrow_up_alt2</key>
+    <string>&#xe018;</string>
+    
+   <key>list_nested</key>
+    <string>&#xe056;</string>
+    
+   <key>arrow_up_alt1</key>
+    <string>&#xe014;</string>
+    
+   <key>comment_stroke</key>
+    <string>&#xe06d;</string>
+    
+   <key>undo</key>
+    <string>&#xe02f;</string>
+    
+   <key>umbrella</key>
+    <string>&#x2602;</string>
+    
+   <key>bolt</key>
+    <string>&#x26a1;</string>
+    
+   <key>article</key>
+    <string>&#xe053;</string>
+    
+   <key>read_more</key>
+    <string>&#xe054;</string>
+    
+   <key>beaker</key>
+    <string>&#xe023;</string>
+    
+   <key>beaker_alt</key>
+    <string>&#xe010;</string>
+    
+   <key>battery_full</key>
+    <string>&#xe073;</string>
+    
+   <key>arrow_right</key>
+    <string>&#x2192;</string>
+    
+   <key>new_window</key>
+    <string>&#xe059;</string>
+    
+   <key>plus</key>
+    <string>&#x2795;</string>
+    
+   <key>cog</key>
+    <string>&#x2699;</string>
+    
+   <key>key_stroke</key>
+    <string>&#x26bf;</string>
+    
+   <key>first</key>
+    <string>&#xe04c;</string>
+    
+   <key>comment_alt1_stroke</key>
+    <string>&#xe003;</string>
+    
+   <key>trash_stroke</key>
+    <string>&#xe05a;</string>
+    
+   <key>image</key>
+    <string>&#xe027;</string>
+    
+   <key>chat_alt_stroke</key>
+    <string>&#xe007;</string>
+    
+   <key>cd</key>
+    <string>&#xe064;</string>
+    
+   <key>right_quote</key>
+    <string>&#x275e;</string>
+    
+   <key>brush</key>
+    <string>&#xe01b;</string>
+    
+   <key>cloud</key>
+    <string>&#x2601;</string>
+    
+   <key>eye</key>
+    <string>&#xe025;</string>
+    
+   <key>play_alt</key>
+    <string>&#xe048;</string>
+    
+   <key>transfer</key>
+    <string>&#xe041;</string>
+    
+   <key>pen_alt2</key>
+    <string>&#xe006;</string>
+    
+   <key>camera</key>
+    <string>&#xe070;</string>
+    
+   <key>move_horizontal_alt2</key>
+    <string>&#xe03a;</string>
+    
+   <key>curved_arrow</key>
+    <string>&#x2935;</string>
+    
+   <key>move_horizontal_alt1</key>
+    <string>&#xe039;</string>
+    
+   <key>aperture</key>
+    <string>&#xe026;</string>
+    
+   <key>reload_alt</key>
+    <string>&#xe031;</string>
+    
+   <key>magnifying_glass</key>
+    <string>&#xe074;</string>
+    
+   <key>iphone</key>
+    <string>&#xe06e;</string>
+    
+   <key>fork</key>
+    <string>&#xe046;</string>
+    
+   <key>box</key>
+    <string>&#xe06b;</string>
+    
+   <key>bars_alt</key>
+    <string>&#xe00a;</string>
+    
+   <key>heart_stroke</key>
+    <string>&#x2764;</string>
+    
+   <key>volume</key>
+    <string>&#xe072;</string>
+    
+   <key>x_alt</key>
+    <string>&#x2718;</string>
+    
+   <key>link</key>
+    <string>&#xe077;</string>
+    
+   <key>moon_stroke</key>
+    <string>&#x263e;</string>
+    
+   <key>eyedropper</key>
+    <string>&#xe01e;</string>
+    
+   <key>spin</key>
+    <string>&#xe036;</string>
+    
+   <key>rss</key>
+    <string>&#xe02c;</string>
+    
+   <key>info</key>
+    <string>&#x2139;</string>
+    
+   <key>target</key>
+    <string>&#xe02a;</string>
+    
+   <key>cursor</key>
+    <string>&#xe057;</string>
+    
+   <key>minus</key>
+    <string>&#x2796;</string>
+    
+   <key>book_alt</key>
+    <string>&#xe00b;</string>
+    
+   <key>headphones</key>
+    <string>&#xe061;</string>
+    
+   <key>hash</key>
+    <string>&#x0023;</string>
+    
+   <key>arrow_left_alt1</key>
+    <string>&#xe013;</string>
+    
+   <key>arrow_left_alt2</key>
+    <string>&#xe017;</string>
+    
+   <key>fullscreen_exit</key>
+    <string>&#xe050;</string>
+    
+   <key>share</key>
+    <string>&#xe02e;</string>
+    
+   <key>fullscreen_alt</key>
+    <string>&#xe04f;</string>
+    
+   <key>at</key>
+    <string>&#x0040;</string>
+    
+   <key>chat</key>
+    <string>&#xe05e;</string>
+    
+   <key>move_vertical_alt2</key>
+    <string>&#xe03d;</string>
+    
+   <key>move_vertical_alt1</key>
+    <string>&#xe03c;</string>
+    
+   <key>check</key>
+    <string>&#x2713;</string>
+    
+   <key>mic</key>
+    <string>&#xe05f;</string>
+    
+   <key>calendar_alt_stroke</key>
+    <string>&#xe06c;</string>
+    
+   <key>book</key>
+    <string>&#xe069;</string>
+    
+   <key>move_alt1</key>
+    <string>&#xe03f;</string>
+    
+   <key>move_alt2</key>
+    <string>&#xe040;</string>
+    
+   <key>award_stroke</key>
+    <string>&#xe022;</string>
+    
+   <key>wrench</key>
+    <string>&#xe078;</string>
+    
+   <key>play</key>
+    <string>&#xe047;</string>
+    
+   <key>star</key>
+    <string>&#x2605;</string>
+    
+   <key>chart</key>
+    <string>&#xe028;</string>
+    
+   <key>rain</key>
+    <string>&#x26c6;</string>
+    
+   <key>folder_stroke</key>
+    <string>&#xe065;</string>
+    
+   <key>sun_stroke</key>
+    <string>&#x2600;</string>
+    
+   <key>user</key>
+    <string>&#xe062;</string>
+    
+   <key>battery_half</key>
+    <string>&#xe05b;</string>
+    
+   <key>aperture_alt</key>
+    <string>&#xe00c;</string>
+    
+   <key>eject</key>
+    <string>&#xe04b;</string>
+    
+   <key>arrow_down_alt1</key>
+    <string>&#xe016;</string>
+    
+   <key>pilcrow</key>
+    <string>&#x00b6;</string>
+    
+   <key>arrow_down_alt2</key>
+    <string>&#xe01a;</string>
+    
+   <key>arrow_right_alt1</key>
+    <string>&#xe015;</string>
+    
+   <key>arrow_right_alt2</key>
+    <string>&#xe019;</string>
+    
+   <key>rss_alt</key>
+    <string>&#xe02d;</string>
+    
+   <key>spin_alt</key>
+    <string>&#xe037;</string>
+    
+</dict>
+</plist>

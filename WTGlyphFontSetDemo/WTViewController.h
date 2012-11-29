@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WTViewController : UIViewController
+@interface WTViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>wheelchair</key>
+    <string>&#xf000;</string>
+    
+    
+    <key>speaker</key>
+    <string>&#xf001;</string>
+    
+    
+    <key>fontsize</key>
+    <string>&#xf002;</string>
+    
+    
+    <key>eject</key>
+    <string>&#xf003;</string>
+    
+    
+    <key>view-mode</key>
+    <string>&#xf004;</string>
+    
+    
+    <key>eyeball</key>
+    <string>&#xf005;</string>
+    
+    
+    <key>asl</key>
+    <string>&#xf006;</string>
+    
+    
+    <key>person</key>
+    <string>&#xf007;</string>
+    
+    
+    <key>question</key>
+    <string>&#xf008;</string>
+    
+    
+    <key>adult</key>
+    <string>&#xf009;</string>
+    
+    
+    <key>child</key>
+    <string>&#xf00a;</string>
+    
+    
+    <key>glasses</key>
+    <string>&#xf00b;</string>
+    
+    
+    <key>cc</key>
+    <string>&#xf00c;</string>
+    
+    
+    <key>blind</key>
+    <string>&#xf00d;</string>
+    
+    
+    <key>braille</key>
+    <string>&#xf00e;</string>
+    
+    
+    <key>iphone-home</key>
+    <string>&#xf00f;</string>
+    
+    
+    <key>w3c</key>
+    <string>&#xf010;</string>
+    
+    
+    <key>css</key>
+    <string>&#xf011;</string>
+    
+    
+    <key>key</key>
+    <string>&#xf012;</string>
+    
+    
+    <key>hearing-impaired</key>
+    <string>&#xf013;</string>
+    
+    
+    <key>male</key>
+    <string>&#xf014;</string>
+    
+    
+    <key>female</key>
+    <string>&#xf015;</string>
+    
+    
+    <key>network</key>
+    <string>&#xf016;</string>
+    
+    
+    <key>guidedog</key>
+    <string>&#xf017;</string>
+    
+    
+    <key>universal-access</key>
+    <string>&#xf018;</string>
+    
+    
+    <key>elevator</key>
+    <string>&#xf019;</string>
+    
+    
+
+</dict>
+</plist>

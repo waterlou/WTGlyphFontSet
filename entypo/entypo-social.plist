@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd</key>
+<plist version="1.0</key>
+<dict>
+    <key>github</key><string>&#62208;</string>
+    <key>c-github</key><string>&#62209;</string>
+    <key>flickr</key><string>&#62211;</string>
+    <key>c-flickr</key><string>&#62212;</string>
+    <key>vimeo</key><string>&#62214;</string>
+    <key>c-vimeo</key><string>&#62215;</string>
+    <key>twitter</key><string>&#62217;</string>
+    <key>c-twitter</key><string>&#62218;</string>
+    <key>facebook</key><string>&#62220;</string>
+    <key>c-facebook</key><string>&#62221;</string>
+    <key>s-facebook</key><string>&#62222;</string>
+    <key>google+</key><string>&#62223;</string>
+    <key>c-google+</key><string>&#62224;</string>
+    <key>pinterest</key><string>&#62226;</string>
+    <key>c-pinterest</key><string>&#62227;</string>
+    <key>tumblr</key><string>&#62229;</string>
+    <key>c-tumblr</key><string>&#62230;</string>
+    <key>linkedin</key><string>&#62232;</string>
+    <key>c-linkedin</key><string>&#62233;</string>
+    <key>dribbble</key><string>&#62235;</string>
+    <key>c-dribbble</key><string>&#62236;</string>
+    <key>stumbleupon</key><string>&#62238;</string>
+    <key>c-stumbleupon</key><string>&#62239;</string>
+    <key>lastfm</key><string>&#62241;</string>
+    <key>c-lastfm</key><string>&#62242;</string>
+    <key>rdio</key><string>&#62244;</string>
+    <key>c-rdio</key><string>&#62245;</string>
+    <key>spotify</key><string>&#62247;</string>
+    <key>c-spotify</key><string>&#62248;</string>
+    <key>qq</key><string>&#62250;</string>
+    <key>instagram</key><string>&#62253;</string>
+    <key>dropbox</key><string>&#62256;</string>
+    <key>evernote</key><string>&#62259;</string>
+    <key>flattr</key><string>&#62262;</string>
+    <key>skype</key><string>&#62265;</string>
+    <key>c-skype</key><string>&#62266;</string>
+    <key>renren</key><string>&#62268;</string>
+    <key>sina-weibo</key><string>&#62271;</string>
+    <key>paypal</key><string>&#62274;</string>
+    <key>picasa</key><string>&#62277;</string>
+    <key>soundcloud</key><string>&#62280;</string>
+    <key>mixi</key><string>&#62283;</string>
+    <key>behance</key><string>&#62286;</string>
+    <key>google-circles</key><string>&#62289;</string>
+    <key>vk</key><string>&#62292;</string>
+    <key>smashing</key><string>&#62295;</string>
+</dict>
+</plist>

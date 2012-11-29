@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>thumb-up</key>
+    <string>&#xf000;</string>
+    
+    
+    <key>thumb-down</key>
+    <string>&#xf001;</string>
+    
+    
+    <key>rss</key>
+    <string>&#xf002;</string>
+    
+    
+    <key>facebook</key>
+    <string>&#xf003;</string>
+    
+    
+    <key>twitter</key>
+    <string>&#xf004;</string>
+    
+    
+    <key>pinterest</key>
+    <string>&#xf005;</string>
+    
+    
+    <key>github</key>
+    <string>&#xf006;</string>
+    
+    
+    <key>path</key>
+    <string>&#xf007;</string>
+    
+    
+    <key>linkedin</key>
+    <string>&#xf008;</string>
+    
+    
+    <key>dribbble</key>
+    <string>&#xf009;</string>
+    
+    
+    <key>stumble-upon</key>
+    <string>&#xf00a;</string>
+    
+    
+    <key>behance</key>
+    <string>&#xf00b;</string>
+    
+    
+    <key>reddit</key>
+    <string>&#xf00c;</string>
+    
+    
+    <key>google-plus</key>
+    <string>&#xf00d;</string>
+    
+    
+    <key>youtube</key>
+    <string>&#xf00e;</string>
+    
+    
+    <key>vimeo</key>
+    <string>&#xf00f;</string>
+    
+    
+    <key>flickr</key>
+    <string>&#xf010;</string>
+    
+    
+    <key>slideshare</key>
+    <string>&#xf011;</string>
+    
+    
+    <key>picassa</key>
+    <string>&#xf012;</string>
+    
+    
+    <key>skype</key>
+    <string>&#xf013;</string>
+    
+    
+    <key>steam</key>
+    <string>&#xf014;</string>
+    
+    
+    <key>instagram</key>
+    <string>&#xf015;</string>
+    
+    
+    <key>foursquare</key>
+    <string>&#xf016;</string>
+    
+    
+    <key>delicious</key>
+    <string>&#xf017;</string>
+    
+    
+    <key>chat</key>
+    <string>&#xf018;</string>
+    
+    
+    <key>torso</key>
+    <string>&#xf019;</string>
+    
+    
+    <key>tumblr</key>
+    <string>&#xf01a;</string>
+    
+    
+    <key>video-chat</key>
+    <string>&#xf01b;</string>
+    
+    
+    <key>digg</key>
+    <string>&#xf01c;</string>
+    
+    
+    <key>wordpress</key>
+    <string>&#xf01d;</string>
+    
+
+</dict>
+</plist>

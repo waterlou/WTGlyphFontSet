@@ -13,8 +13,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [WTGlyphFontSet loadFont:@"fontawesome" filename:@"fontawesome.ttf"];
-    
+    [WTGlyphFontSet loadFont:@"general_foundicons" filename:@"general_foundicons.ttf"];
+
     // Override point for customization after application launch.
     return YES;
 }

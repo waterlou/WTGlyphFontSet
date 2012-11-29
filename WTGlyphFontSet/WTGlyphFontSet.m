@@ -20,18 +20,16 @@ static NSMutableDictionary *glyphFonts = nil;
     
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        if (glyphFonts==nil)
-        {
-            glyphFonts = [[NSMutableDictionary alloc] initWithCapacity:4];
-        }
-        if ([glyphFonts objectForKey: fontname]!=nil)
-        {
-            // font is already defined
-            return;
-        }
-        WTGlyphFontSet *newGlyph = [[WTGlyphFontSet alloc] initWithFontName:fileComponent[0] ofType:fileComponent[1]];
-        [glyphFonts setObject:newGlyph forKey:fontname];
+        glyphFonts = [[NSMutableDictionary alloc] initWithCapacity:4];
     });
+    
+    if ([glyphFonts objectForKey: fontname]!=nil)
+    {
+        // font is already defined
+        return;
+    }
+    WTGlyphFontSet *newGlyph = [[WTGlyphFontSet alloc] initWithFontName:fileComponent[0] ofType:fileComponent[1]];
+    [glyphFonts setObject:newGlyph forKey:fontname];
 }
 
 + (WTGlyphFontSet*) fontSet : (NSString*) fontname
@@ -72,53 +70,75 @@ static NSMutableDictionary *glyphFonts = nil;
 
 - (void)drawAtRect : (CGRect)rect name : (NSString*)name color : (UIColor*)color
 {
+    [self drawAtRect:rect name:name color:color alignment : NSTextAlignmentCenter verticalAlignment : NSVerticalTextAlignmentDefault];
+}
+
+- (void)drawAtRect : (CGRect)rect name : (NSString*)name color : (UIColor*)color
+         alignment : (NSTextAlignment) alignment verticalAlignment : (NSVerticalTextAlignment) verticalAlignment
+{
     NSString *iconString = _glyphLookup[name];
     if (iconString==nil) return;    // glyph not found
     CGColorRef colorRef = color.CGColor;
+    
+    // create a font with correct size
+    CTFontRef sizedFont = CTFontCreateCopyWithAttributes(_font, rect.size.height, NULL, NULL);
+    
     NSDictionary *attributesDict = [NSDictionary dictionaryWithObjectsAndKeys:
-                                    (__bridge id)_font, (NSString *)kCTFontAttributeName,
+                                    (__bridge id)sizedFont, (NSString *)kCTFontAttributeName,
                                     colorRef, (NSString *)kCTForegroundColorAttributeName,
                                     nil];
-    
-    NSAttributedString *attrString = [[NSMutableAttributedString alloc]
+
+    NSMutableAttributedString *attrString = [[NSMutableAttributedString alloc]
                                       initWithString:iconString
                                       attributes:attributesDict];
-    
+
     CGContextRef context = UIGraphicsGetCurrentContext();
-    CGContextSetTextMatrix(context, CGAffineTransformIdentity);
-    CFAttributedStringSetAttribute((CFMutableAttributedStringRef)attrString,
-                                   CFRangeMake(0, iconString.length),
-                                   kCTForegroundColorAttributeName,
-                                   colorRef);
     CTLineRef line = CTLineCreateWithAttributedString((__bridge CFAttributedStringRef) attrString);
-    CGRect imageBounds = CTLineGetImageBounds(line, context);
-    CGFloat width = imageBounds.size.width;
-    CGFloat height = imageBounds.size.height;
-    CGFloat scale = MAX(width, height);
-    
-    float sx = rect.size.width / scale;
-    float sy = rect.size.height / scale;
-    float xoffset = (rect.size.width - 1.0 - width * sx) / 2.0;
     
     CGContextSetTextMatrix(context, CGAffineTransformIdentity);
     
-    CGContextTranslateCTM(context, rect.origin.x+0.5+xoffset, rect.size.height+rect.origin.y-0.5);
-    CGContextScaleCTM(context, sx, -sy);
+    CGContextTranslateCTM(context, rect.origin.x, rect.size.height+rect.origin.y);
+    CGContextScaleCTM(context, 1, -1);
     
-    //CGContextSetTextPosition(context, -imageBounds.origin.x*400, 0);
-    //CGContextSetTextPosition(context, -imageBounds.origin.x, -imageBounds.origin.y);
+    float flush = 0.5; // centered
+    if (alignment==NSTextAlignmentLeft) flush = 0.0;
+    else if (alignment==NSTextAlignmentRight) flush = 1.0;
+    CGFloat yOffset;
+    CGRect imageBounds;
+    switch (verticalAlignment) {
+        case NSVerticalTextAlignmentCenter:
+            imageBounds = CTLineGetImageBounds(line, context);
+            yOffset = (rect.size.height-imageBounds.size.height)/2.0; break;
+        case NSVerticalTextAlignmentTop:
+            imageBounds = CTLineGetImageBounds(line, context);
+            yOffset = rect.size.height - imageBounds.size.height - imageBounds.origin.y; break;
+        case NSVerticalTextAlignmentBottom:
+            imageBounds = CTLineGetImageBounds(line, context);
+            yOffset = -imageBounds.origin.y; break;
+        default:
+            yOffset = 0.0; break;
+    }
+    double penOffset = CTLineGetPenOffsetForFlush(line, flush, rect.size.width);
+    CGContextSetTextPosition(context, penOffset, yOffset);
     
     CTLineDraw(line, context);
     CFRelease(line);
+    CFRelease(sizedFont);
+}
+
+- (UIImage*) image : (CGSize)size name : (NSString*)name color : (UIColor*)color
+{
+    return [self image:size name:name color:color inset:0.0f alignment:NSTextAlignmentCenter verticalAlignment:NSVerticalTextAlignmentDefault];
 }
 
 - (UIImage*) image : (CGSize)size name : (NSString*)name color : (UIColor*)color inset : (CGFloat) inset
+         alignment : (NSTextAlignment) alignment verticalAlignment : (NSVerticalTextAlignment) verticalAlignment
 {
     UIGraphicsBeginImageContextWithOptions(size, NO, [UIScreen mainScreen].scale);
     [color setFill];
-    CGFloat i = MAX(0.5, inset);
+    CGFloat i = MAX(inset, 1.0f);   // at least 1.0f inset for better anti-aliasing
     CGRect rr = CGRectInset(CGRectMake(0,0,size.width,size.height), i, i);
-    [self drawAtRect:rr name:name color:color];
+    [self drawAtRect:rr name:name color:color alignment:alignment verticalAlignment:verticalAlignment];
     UIImage *ret = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return ret;

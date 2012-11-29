@@ -5,6 +5,8 @@ WTGlyphFontSet
 - drawRect or generate an image in arbitary size
 - support retina display
 
+![screenshot](https://github.com/waterlou/WTGlyphFontSet/raw/master/screenshot.png)
+
 ### How to use
 
 ##### Setup

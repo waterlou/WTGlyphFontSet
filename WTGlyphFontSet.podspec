@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
   s.subspec 'entypo' do |entypo|
     entypo.resource = 'entypo/**/entypo.{ttf,otf,plist}'
   end
-  s.subspec 'entypo-social' do |entypo-social|
-    entypo-social.resource = 'entypo-social/**/entypo-social.{ttf,otf,plist}'
+  s.subspec 'entypo-social' do |entypo_social|
+    entypo_social.resource = 'entypo-social/**/entypo-social.{ttf,otf,plist}'
   end
   s.subspec 'general_foundicons' do |general_foundicons|
     general_foundicons.resource = 'general_foundicons/**/general_foundicons.{ttf,otf,plist}'

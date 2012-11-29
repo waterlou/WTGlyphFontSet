@@ -72,7 +72,6 @@
 		4918ACAF166764200016CF63 /* heydings_icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = heydings_icons.ttf; sourceTree = "<group>"; };
 		4918ACB3166769CC0016CF63 /* modernpics.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = modernpics.otf; sourceTree = "<group>"; };
 		4918ACB4166769CC0016CF63 /* modernpics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = modernpics.plist; sourceTree = "<group>"; };
-		4918ACB7166775700016CF63 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.mdown; sourceTree = "<group>"; };
 		495AC8A61666461B007164DA /* WTGlyphFontSetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTGlyphFontSetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		495AC8AA1666461B007164DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		495AC8AC1666461B007164DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -183,7 +182,6 @@
 		495AC89B1666461B007164DA = {
 			isa = PBXGroup;
 			children = (
-				4918ACB7166775700016CF63 /* README.mdown */,
 				4918AC711666F6EA0016CF63 /* Fonts */,
 				495AC8D01666465B007164DA /* WTGlyphFontSet */,
 				495AC8B01666461B007164DA /* WTGlyphFontSetDemo */,

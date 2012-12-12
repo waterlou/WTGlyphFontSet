@@ -116,7 +116,11 @@ static NSMutableDictionary *glyphFonts = nil;
             imageBounds = CTLineGetImageBounds(line, context);
             yOffset = -imageBounds.origin.y; break;
         default:
-            yOffset = 0.0; break;
+        {
+            CGFloat descent, ascent;
+            CTLineGetTypographicBounds(line, &ascent, &descent, nil);
+            yOffset = (rect.size.height - ascent - descent ) / 2.0;
+        } break;
     }
     double penOffset = CTLineGetPenOffsetForFlush(line, flush, rect.size.width);
     CGContextSetTextPosition(context, penOffset, yOffset);

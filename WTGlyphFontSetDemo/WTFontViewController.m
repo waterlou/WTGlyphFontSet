@@ -84,7 +84,7 @@
 // The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath:
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     WTFontViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"WTFontViewCell" forIndexPath:indexPath];
-    UIImage *image = [[WTGlyphFontSet fontSet: self.fontname] image : CGSizeMake(48, 48) name : _meta[indexPath.row] color : [UIColor colorWithWhite:0.2f alpha:1.0f]];
+    UIImage *image = [[WTGlyphFontSet fontSet: self.fontname] image : CGSizeMake(48, 48) name : _meta[indexPath.row] color : [UIColor colorWithWhite:0.2f alpha:1.0f] inset:4.0f alignment:NSTextAlignmentCenter verticalAlignment:NSVerticalTextAlignmentDefault];
     cell.imageView.image = image;
     cell.label.text = _meta[indexPath.row];
     return cell;

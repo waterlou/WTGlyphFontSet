@@ -35,6 +35,9 @@
     @{@"name": @"accessibility_foundicons", @"file": @"accessibility_foundicons.ttf", @"url": @"http://www.zurb.com/playground/foundation-icons"},
     @{@"name": @"heydings_icons", @"file": @"heydings_icons.ttf", @"url": @"http://www.heydonworks.com/article/a-free-icon-web-font"},
     @{@"name": @"modernpics", @"file": @"modernpics.otf", @"url": @"http://thedesignoffice.org/project/modern-pictograms/"},
+    @{@"name": @"brankic1979", @"file": @"brankic1979.ttf", @"url": @"http://www.brankic1979.com"},
+    @{@"name": @"icomoon", @"file": @"icomoon.ttf", @"url": @"http://icomoon.io"},
+    @{@"name": @"wpzoom", @"file": @"wpzoom.ttf", @"url": @"http://www.wpzoom.com/wpzoom/new-freebie-wpzoom-developer-icon-set-154-free-icons/"},
     ];
     
     // use icon as back button

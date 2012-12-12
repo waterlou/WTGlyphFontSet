@@ -44,6 +44,12 @@
 		495AC8D316664690007164DA /* fontawesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 495AC8D216664690007164DA /* fontawesome.ttf */; };
 		495AC8D51666476A007164DA /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495AC8D41666476A007164DA /* CoreText.framework */; };
 		495AC8D71666689A007164DA /* fontawesome.plist in Resources */ = {isa = PBXBuildFile; fileRef = 495AC8D61666689A007164DA /* fontawesome.plist */; };
+		49FF693E1668D48500804543 /* brankic1979.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49FF693C1668D48500804543 /* brankic1979.plist */; };
+		49FF693F1668D48500804543 /* brankic1979.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49FF693D1668D48500804543 /* brankic1979.ttf */; };
+		49FF69441668D68A00804543 /* icomoon.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49FF69421668D68A00804543 /* icomoon.plist */; };
+		49FF69451668D68A00804543 /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49FF69431668D68A00804543 /* icomoon.ttf */; };
+		49FF69491668DB4500804543 /* wpzoom.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49FF69471668DB4500804543 /* wpzoom.plist */; };
+		49FF694A1668DB4500804543 /* wpzoom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49FF69481668DB4500804543 /* wpzoom.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +99,12 @@
 		495AC8D216664690007164DA /* fontawesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontawesome.ttf; sourceTree = "<group>"; };
 		495AC8D41666476A007164DA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		495AC8D61666689A007164DA /* fontawesome.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fontawesome.plist; sourceTree = "<group>"; };
+		49FF693C1668D48500804543 /* brankic1979.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = brankic1979.plist; sourceTree = "<group>"; };
+		49FF693D1668D48500804543 /* brankic1979.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = brankic1979.ttf; sourceTree = "<group>"; };
+		49FF69421668D68A00804543 /* icomoon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = icomoon.plist; sourceTree = "<group>"; };
+		49FF69431668D68A00804543 /* icomoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = icomoon.ttf; sourceTree = "<group>"; };
+		49FF69471668DB4500804543 /* wpzoom.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wpzoom.plist; sourceTree = "<group>"; };
+		49FF69481668DB4500804543 /* wpzoom.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = wpzoom.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +163,9 @@
 		4918AC711666F6EA0016CF63 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				49FF69461668DB4500804543 /* wpzoom */,
+				49FF69411668D68A00804543 /* icomoon */,
+				49FF693B1668D48500804543 /* brankic1979 */,
 				4918ACB2166769CC0016CF63 /* modernpics */,
 				4918ACAD166764200016CF63 /* heydings_icons */,
 				4918AC581666F6D50016CF63 /* entypo */,
@@ -258,6 +273,33 @@
 			path = fontawesome;
 			sourceTree = "<group>";
 		};
+		49FF693B1668D48500804543 /* brankic1979 */ = {
+			isa = PBXGroup;
+			children = (
+				49FF693C1668D48500804543 /* brankic1979.plist */,
+				49FF693D1668D48500804543 /* brankic1979.ttf */,
+			);
+			path = brankic1979;
+			sourceTree = "<group>";
+		};
+		49FF69411668D68A00804543 /* icomoon */ = {
+			isa = PBXGroup;
+			children = (
+				49FF69421668D68A00804543 /* icomoon.plist */,
+				49FF69431668D68A00804543 /* icomoon.ttf */,
+			);
+			path = icomoon;
+			sourceTree = "<group>";
+		};
+		49FF69461668DB4500804543 /* wpzoom */ = {
+			isa = PBXGroup;
+			children = (
+				49FF69471668DB4500804543 /* wpzoom.plist */,
+				49FF69481668DB4500804543 /* wpzoom.ttf */,
+			);
+			path = wpzoom;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -338,6 +380,12 @@
 				4918ACB1166764200016CF63 /* heydings_icons.ttf in Resources */,
 				4918ACB5166769CC0016CF63 /* modernpics.otf in Resources */,
 				4918ACB6166769CC0016CF63 /* modernpics.plist in Resources */,
+				49FF693E1668D48500804543 /* brankic1979.plist in Resources */,
+				49FF693F1668D48500804543 /* brankic1979.ttf in Resources */,
+				49FF69441668D68A00804543 /* icomoon.plist in Resources */,
+				49FF69451668D68A00804543 /* icomoon.ttf in Resources */,
+				49FF69491668DB4500804543 /* wpzoom.plist in Resources */,
+				49FF694A1668DB4500804543 /* wpzoom.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

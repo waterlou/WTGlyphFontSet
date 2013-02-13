@@ -38,6 +38,7 @@
     @{@"name": @"brankic1979", @"file": @"brankic1979.ttf", @"url": @"http://www.brankic1979.com"},
     @{@"name": @"icomoon", @"file": @"icomoon.ttf", @"url": @"http://icomoon.io"},
     @{@"name": @"wpzoom", @"file": @"wpzoom.ttf", @"url": @"http://www.wpzoom.com/wpzoom/new-freebie-wpzoom-developer-icon-set-154-free-icons/"},
+    @{@"name": @"CONDENSEicon", @"file": @"CONDENSEicon.ttf", @"url": @"http://icon.condense-c.com"},
     ];
     
     // use icon as back button

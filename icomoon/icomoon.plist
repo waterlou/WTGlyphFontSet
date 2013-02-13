@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>home</key>
+	<string>&#xe000;</string>
+    
+    <key>newspaper</key>
+	<string>&#xe001;</string>
+    
+    <key>pencil</key>
+	<string>&#xe002;</string>
+    
+    <key>pencil-2</key>
+	<string>&#xe003;</string>
+    
+    <key>droplet</key>
+	<string>&#xe004;</string>
+    
+    <key>pictures</key>
+	<string>&#xe005;</string>
+    
+    <key>picture</key>
+	<string>&#xe006;</string>
+    
+    <key>camera</key>
+	<string>&#xe007;</string>
+    
+    <key>music</key>
+	<string>&#xe008;</string>
+    
+    <key>play</key>
+	<string>&#xe009;</string>
+    
+    <key>film</key>
+	<string>&#xe00a;</string>
+    
+    <key>camera-2</key>
+	<string>&#xe00b;</string>
+    
+    <key>spades</key>
+	<string>&#xe00c;</string>
+    
+    <key>clubs</key>
+	<string>&#xe00d;</string>
+    
+    <key>diamonds</key>
+	<string>&#xe00e;</string>
+    
+    <key>broadcast</key>
+	<string>&#xe00f;</string>
+    
+    <key>mic</key>
+	<string>&#xe010;</string>
+    
+    <key>book</key>
+	<string>&#xe011;</string>
+    
+    <key>file</key>
+	<string>&#xe012;</string>
+    
+    <key>file-2</key>
+	<string>&#xe013;</string>
+    
+    <key>new</key>
+	<string>&#xe014;</string>
+    
+    <key>copy</key>
+	<string>&#xe015;</string>
+    
+    <key>folder</key>
+	<string>&#xe016;</string>
+    
+    <key>folder-2</key>
+	<string>&#xe017;</string>
+    
+    <key>tag</key>
+	<string>&#xe018;</string>
+    
+    <key>cart</key>
+	<string>&#xe019;</string>
+    
+    <key>basket</key>
+	<string>&#xe01a;</string>
+    
+    <key>calculate</key>
+	<string>&#xe01b;</string>
+    
+    <key>support</key>
+	<string>&#xe01c;</string>
+    
+    <key>phone</key>
+	<string>&#xe01d;</string>
+    
+    <key>mail</key>
+	<string>&#xe01e;</string>
+    
+    <key>location</key>
+	<string>&#xe01f;</string>
+    
+    <key>compass</key>
+	<string>&#xe020;</string>
+    
+    <key>history</key>
+	<string>&#xe021;</string>
+    
+    <key>clock</key>
+	<string>&#xe022;</string>
+    
+    <key>bell</key>
+	<string>&#xe023;</string>
+    
+    <key>calendar</key>
+	<string>&#xe024;</string>
+    
+    <key>printer</key>
+	<string>&#xe025;</string>
+    
+    <key>mouse</key>
+	<string>&#xe026;</string>
+    
+    <key>screen</key>
+	<string>&#xe027;</string>
+    
+    <key>laptop</key>
+	<string>&#xe028;</string>
+    
+    <key>mobile</key>
+	<string>&#xe029;</string>
+    
+    <key>cabinet</key>
+	<string>&#xe02a;</string>
+    
+    <key>drawer</key>
+	<string>&#xe02b;</string>
+    
+    <key>drawer-2</key>
+	<string>&#xe02c;</string>
+    
+    <key>box</key>
+	<string>&#xe02d;</string>
+    
+    <key>box-add</key>
+	<string>&#xe02e;</string>
+    
+    <key>box-remove</key>
+	<string>&#xe02f;</string>
+    
+    <key>download</key>
+	<string>&#xe030;</string>
+    
+    <key>upload</key>
+	<string>&#xe031;</string>
+    
+    <key>database</key>
+	<string>&#xe032;</string>
+    
+    <key>flip</key>
+	<string>&#xe033;</string>
+    
+    <key>flip-2</key>
+	<string>&#xe034;</string>
+    
+    <key>undo</key>
+	<string>&#xe035;</string>
+    
+    <key>redo</key>
+	<string>&#xe036;</string>
+    
+    <key>forward</key>
+	<string>&#xe037;</string>
+    
+    <key>reply</key>
+	<string>&#xe038;</string>
+    
+    <key>reply-2</key>
+	<string>&#xe039;</string>
+    
+    <key>comments</key>
+	<string>&#xe03a;</string>
+    
+    <key>comments-2</key>
+	<string>&#xe03b;</string>
+    
+    <key>comments-3</key>
+	<string>&#xe03c;</string>
+    
+    <key>comments-4</key>
+	<string>&#xe03d;</string>
+    
+    <key>comments-5</key>
+	<string>&#xe03e;</string>
+    
+    <key>user</key>
+	<string>&#xe03f;</string>
+    
+    <key>user-2</key>
+	<string>&#xe040;</string>
+    
+    <key>user-3</key>
+	<string>&#xe041;</string>
+    
+    <key>busy</key>
+	<string>&#xe042;</string>
+    
+    <key>loading</key>
+	<string>&#xe043;</string>
+    
+    <key>loading-2</key>
+	<string>&#xe044;</string>
+    
+    <key>search</key>
+	<string>&#xe045;</string>
+    
+    <key>zoom-in</key>
+	<string>&#xe046;</string>
+    
+    <key>zoom-out</key>
+	<string>&#xe047;</string>
+    
+    <key>key</key>
+	<string>&#xe048;</string>
+    
+    <key>key-2</key>
+	<string>&#xe049;</string>
+    
+    <key>locked</key>
+	<string>&#xe04a;</string>
+    
+    <key>unlocked</key>
+	<string>&#xe04b;</string>
+    
+    <key>wrench</key>
+	<string>&#xe04c;</string>
+    
+    <key>equalizer</key>
+	<string>&#xe04d;</string>
+    
+    <key>cog</key>
+	<string>&#xe04e;</string>
+    
+    <key>pie</key>
+	<string>&#xe04f;</string>
+    
+    <key>bars</key>
+	<string>&#xe050;</string>
+    
+    <key>stats-up</key>
+	<string>&#xe051;</string>
+    
+    <key>gift</key>
+	<string>&#xe052;</string>
+    
+    <key>trophy</key>
+	<string>&#xe053;</string>
+    
+    <key>diamond</key>
+	<string>&#xe054;</string>
+    
+    <key>coffee</key>
+	<string>&#xe055;</string>
+    
+    <key>rocket</key>
+	<string>&#xe056;</string>
+    
+    <key>meter-slow</key>
+	<string>&#xe057;</string>
+    
+    <key>meter-medium</key>
+	<string>&#xe058;</string>
+    
+    <key>meter-fast</key>
+	<string>&#xe059;</string>
+    
+    <key>dashboard</key>
+	<string>&#xe05a;</string>
+    
+    <key>fire</key>
+	<string>&#xe05b;</string>
+    
+    <key>lab</key>
+	<string>&#xe05c;</string>
+    
+    <key>remove</key>
+	<string>&#xe05d;</string>
+    
+    <key>remove-2</key>
+	<string>&#xe05e;</string>
+    
+    <key>remove-3</key>
+	<string>&#xe05f;</string>
+    
+    <key>briefcase</key>
+	<string>&#xe060;</string>
+    
+    <key>briefcase-2</key>
+	<string>&#xe061;</string>
+    
+    <key>cars</key>
+	<string>&#xe062;</string>
+    
+    <key>bus</key>
+	<string>&#xe063;</string>
+    
+    <key>cube</key>
+	<string>&#xe064;</string>
+    
+    <key>cube-2</key>
+	<string>&#xe065;</string>
+    
+    <key>puzzle</key>
+	<string>&#xe066;</string>
+    
+    <key>glasses</key>
+	<string>&#xe067;</string>
+    
+    <key>glasses-2</key>
+	<string>&#xe068;</string>
+    
+    <key>accessibility</key>
+	<string>&#xe069;</string>
+    
+    <key>accessibility-2</key>
+	<string>&#xe06a;</string>
+    
+    <key>target</key>
+	<string>&#xe06b;</string>
+    
+    <key>target-2</key>
+	<string>&#xe06c;</string>
+    
+    <key>lightning</key>
+	<string>&#xe06d;</string>
+    
+    <key>power</key>
+	<string>&#xe06e;</string>
+    
+    <key>home-2</key>
+	<string>&#xe06f;</string>
+    
+    <key>power-2</key>
+	<string>&#xe070;</string>
+    
+    <key>clipboard</key>
+	<string>&#xe071;</string>
+    
+    <key>clipboard-2</key>
+	<string>&#xe072;</string>
+    
+    <key>playlist</key>
+	<string>&#xe073;</string>
+    
+    <key>grid-view</key>
+	<string>&#xe074;</string>
+    
+    <key>tree-view</key>
+	<string>&#xe075;</string>
+    
+    <key>cloud</key>
+	<string>&#xe076;</string>
+    
+    <key>cloud-2</key>
+	<string>&#xe077;</string>
+    
+    <key>download-2</key>
+	<string>&#xe078;</string>
+    
+    <key>upload-2</key>
+	<string>&#xe079;</string>
+    
+    <key>upload-3</key>
+	<string>&#xe07a;</string>
+    
+    <key>link</key>
+	<string>&#xe07b;</string>
+    
+    <key>link-2</key>
+	<string>&#xe07c;</string>
+    
+    <key>flag</key>
+	<string>&#xe07d;</string>
+    
+    <key>flag-2</key>
+	<string>&#xe07e;</string>
+    
+    <key>attachment</key>
+	<string>&#xe07f;</string>
+    
+    <key>eye</key>
+	<string>&#xe080;</string>
+    
+    <key>eye-2</key>
+	<string>&#xe081;</string>
+    
+    <key>bookmark</key>
+	<string>&#xe082;</string>
+    
+    <key>bookmark-2</key>
+	<string>&#xe083;</string>
+    
+    <key>star</key>
+	<string>&#xe084;</string>
+    
+    <key>star-2</key>
+	<string>&#xe085;</string>
+    
+    <key>star-3</key>
+	<string>&#xe086;</string>
+    
+    <key>heart</key>
+	<string>&#xe087;</string>
+    
+    <key>heart-2</key>
+	<string>&#xe088;</string>
+    
+    <key>thumbs-up</key>
+	<string>&#xe089;</string>
+    
+    <key>thumbs-down</key>
+	<string>&#xe08a;</string>
+    
+    <key>happy</key>
+	<string>&#xe08b;</string>
+    
+    <key>smiley</key>
+	<string>&#xe08c;</string>
+    
+    <key>neutral</key>
+	<string>&#xe08d;</string>
+    
+    <key>plus</key>
+	<string>&#xe08e;</string>
+    
+    <key>minus</key>
+	<string>&#xe08f;</string>
+    
+    <key>help</key>
+	<string>&#xe090;</string>
+    
+    <key>help-2</key>
+	<string>&#xe091;</string>
+    
+    <key>blocked</key>
+	<string>&#xe092;</string>
+    
+    <key>cancel</key>
+	<string>&#xe093;</string>
+    
+    <key>cancel-2</key>
+	<string>&#xe094;</string>
+    
+    <key>checkmark</key>
+	<string>&#xe095;</string>
+    
+    <key>minus-2</key>
+	<string>&#xe096;</string>
+    
+    <key>plus-2</key>
+	<string>&#xe097;</string>
+    
+    <key>enter</key>
+	<string>&#xe098;</string>
+    
+    <key>exit</key>
+	<string>&#xe099;</string>
+    
+    <key>loop</key>
+	<string>&#xe09a;</string>
+    
+    <key>arrow-up-left</key>
+	<string>&#xe09b;</string>
+    
+    <key>arrow-up</key>
+	<string>&#xe09c;</string>
+    
+    <key>arrow-up-right</key>
+	<string>&#xe09d;</string>
+    
+    <key>arrow-right</key>
+	<string>&#xe09e;</string>
+    
+    <key>arrow-down-right</key>
+	<string>&#xe09f;</string>
+    
+    <key>arrow-down</key>
+	<string>&#xe0a0;</string>
+    
+    <key>arrow-down-left</key>
+	<string>&#xe0a1;</string>
+    
+    <key>arrow-left</key>
+	<string>&#xe0a2;</string>
+    
+    <key>arrow-up-left-2</key>
+	<string>&#xe0a3;</string>
+    
+    <key>arrow-up-2</key>
+	<string>&#xe0a4;</string>
+    
+    <key>arrow-up-right-2</key>
+	<string>&#xe0a5;</string>
+    
+    <key>arrow-right-2</key>
+	<string>&#xe0a6;</string>
+    
+    <key>arrow-down-right-2</key>
+	<string>&#xe0a7;</string>
+    
+    <key>arrow-down-2</key>
+	<string>&#xe0a8;</string>
+    
+    <key>arrow-down-left-2</key>
+	<string>&#xe0a9;</string>
+    
+    <key>arrow-left-2</key>
+	<string>&#xe0aa;</string>
+    
+    <key>arrow-up-left-3</key>
+	<string>&#xe0ab;</string>
+    
+    <key>arrow-up-3</key>
+	<string>&#xe0ac;</string>
+    
+    <key>arrow-up-right-3</key>
+	<string>&#xe0ad;</string>
+    
+    <key>arrow-right-3</key>
+	<string>&#xe0ae;</string>
+    
+    <key>arrow-down-right-3</key>
+	<string>&#xe0af;</string>
+    
+    <key>arrow-down-3</key>
+	<string>&#xe0b0;</string>
+    
+    <key>arrow-down-left-3</key>
+	<string>&#xe0b1;</string>
+    
+    <key>arrow-left-3</key>
+	<string>&#xe0b2;</string>
+    
+    <key>arrow-up-4</key>
+	<string>&#xe0b3;</string>
+    
+    <key>arrow-right-4</key>
+	<string>&#xe0b4;</string>
+    
+    <key>arrow-down-4</key>
+	<string>&#xe0b5;</string>
+    
+    <key>arrow-left-4</key>
+	<string>&#xe0b6;</string>
+    
+    <key>arrow-up-5</key>
+	<string>&#xe0b7;</string>
+    
+    <key>arrow-right-5</key>
+	<string>&#xe0b8;</string>
+    
+    <key>arrow-down-5</key>
+	<string>&#xe0b9;</string>
+    
+    <key>arrow-left-5</key>
+	<string>&#xe0ba;</string>
+    
+    <key>arrow-up-6</key>
+	<string>&#xe0bb;</string>
+    
+    <key>arrow-right-6</key>
+	<string>&#xe0bc;</string>
+    
+    <key>arrow-down-6</key>
+	<string>&#xe0bd;</string>
+    
+    <key>arrow-left-6</key>
+	<string>&#xe0be;</string>
+    
+    <key>menu</key>
+	<string>&#xe0bf;</string>
+    
+    <key>enter-2</key>
+	<string>&#xe0c0;</string>
+    
+    <key>backspace</key>
+	<string>&#xe0c1;</string>
+    
+    <key>backspace-2</key>
+	<string>&#xe0c2;</string>
+    
+    <key>tab</key>
+	<string>&#xe0c3;</string>
+    
+    <key>tab-2</key>
+	<string>&#xe0c4;</string>
+    
+    <key>checkbox</key>
+	<string>&#xe0c5;</string>
+    
+    <key>checkbox-unchecked</key>
+	<string>&#xe0c6;</string>
+    
+    <key>checkbox-partial</key>
+	<string>&#xe0c7;</string>
+    
+    <key>radio-checked</key>
+	<string>&#xe0c8;</string>
+    
+    <key>radio-unchecked</key>
+	<string>&#xe0c9;</string>
+    
+    <key>font</key>
+	<string>&#xe0ca;</string>
+    
+    <key>paragraph-left</key>
+	<string>&#xe0cb;</string>
+    
+    <key>paragraph-center</key>
+	<string>&#xe0cc;</string>
+    
+    <key>paragraph-right</key>
+	<string>&#xe0cd;</string>
+    
+    <key>paragraph-justify</key>
+	<string>&#xe0ce;</string>
+    
+    <key>left-to-right</key>
+	<string>&#xe0cf;</string>
+    
+    <key>right-to-left</key>
+	<string>&#xe0d0;</string>
+    
+    <key>share</key>
+	<string>&#xe0d1;</string>
+    
+    <key>new-tab</key>
+	<string>&#xe0d2;</string>
+    
+    <key>new-tab-2</key>
+	<string>&#xe0d3;</string>
+    
+    <key>embed</key>
+	<string>&#xe0d4;</string>
+    
+    <key>code</key>
+	<string>&#xe0d5;</string>
+    
+    <key>bluetooth</key>
+	<string>&#xe0d6;</string>
+    
+    <key>share-2</key>
+	<string>&#xe0d7;</string>
+    
+    <key>share-3</key>
+	<string>&#xe0d8;</string>
+    
+    <key>mail-2</key>
+	<string>&#xe0d9;</string>
+    
+    <key>mail-3</key>
+	<string>&#xe0da;</string>
+    
+    <key>mail-4</key>
+	<string>&#xe0db;</string>
+    
+    <key>google</key>
+	<string>&#xe0dc;</string>
+    
+    <key>google-plus</key>
+	<string>&#xe0dd;</string>
+    
+    <key>google-plus-2</key>
+	<string>&#xe0de;</string>
+    
+    <key>google-plus-3</key>
+	<string>&#xe0df;</string>
+    
+    <key>gplus</key>
+	<string>&#xe0e0;</string>
+    
+    <key>google-drive</key>
+	<string>&#xe0e1;</string>
+    
+    <key>facebook</key>
+	<string>&#xe0e2;</string>
+    
+    <key>facebook-2</key>
+	<string>&#xe0e3;</string>
+    
+    <key>facebook-3</key>
+	<string>&#xe0e4;</string>
+    
+    <key>instagram</key>
+	<string>&#xe0e5;</string>
+    
+    <key>twitter</key>
+	<string>&#xe0e6;</string>
+    
+    <key>twitter-2</key>
+	<string>&#xe0e7;</string>
+    
+    <key>twitter-3</key>
+	<string>&#xe0e8;</string>
+    
+    <key>feed</key>
+	<string>&#xe0e9;</string>
+    
+    <key>feed-2</key>
+	<string>&#xe0ea;</string>
+    
+    <key>feed-3</key>
+	<string>&#xe0eb;</string>
+    
+    <key>youtube</key>
+	<string>&#xe0ec;</string>
+    
+    <key>youtube-2</key>
+	<string>&#xe0ed;</string>
+    
+    <key>vimeo</key>
+	<string>&#xe0ee;</string>
+    
+    <key>vimeo-2</key>
+	<string>&#xe0ef;</string>
+    
+    <key>flickr</key>
+	<string>&#xe0f0;</string>
+    
+    <key>flickr-2</key>
+	<string>&#xe0f1;</string>
+    
+    <key>flickr-3</key>
+	<string>&#xe0f2;</string>
+    
+    <key>picassa</key>
+	<string>&#xe0f3;</string>
+    
+    <key>picassa-2</key>
+	<string>&#xe0f4;</string>
+    
+    <key>dribbble</key>
+	<string>&#xe0f5;</string>
+    
+    <key>dribbble-2</key>
+	<string>&#xe0f6;</string>
+    
+    <key>dribbble-3</key>
+	<string>&#xe0f7;</string>
+    
+    <key>forrst</key>
+	<string>&#xe0f8;</string>
+    
+    <key>forrst-2</key>
+	<string>&#xe0f9;</string>
+    
+    <key>deviantart</key>
+	<string>&#xe0fa;</string>
+    
+    <key>deviantart-2</key>
+	<string>&#xe0fb;</string>
+    
+    <key>github</key>
+	<string>&#xe0fc;</string>
+    
+    <key>github-2</key>
+	<string>&#xe0fd;</string>
+    
+    <key>github-3</key>
+	<string>&#xe0fe;</string>
+    
+    <key>github-4</key>
+	<string>&#xe0ff;</string>
+    
+    <key>github-5</key>
+	<string>&#xe100;</string>
+    
+    <key>github-6</key>
+	<string>&#xe101;</string>
+    
+    <key>git</key>
+	<string>&#xe102;</string>
+    
+    <key>github-7</key>
+	<string>&#xe103;</string>
+    
+    <key>wordpress</key>
+	<string>&#xe104;</string>
+    
+    <key>wordpress-2</key>
+	<string>&#xe105;</string>
+    
+    <key>joomla</key>
+	<string>&#xe106;</string>
+    
+    <key>blogger</key>
+	<string>&#xe107;</string>
+    
+    <key>blogger-2</key>
+	<string>&#xe108;</string>
+    
+    <key>tumblr</key>
+	<string>&#xe109;</string>
+    
+    <key>tumblr-2</key>
+	<string>&#xe10a;</string>
+    
+    <key>yahoo</key>
+	<string>&#xe10b;</string>
+    
+    <key>yahoo-2</key>
+	<string>&#xe10c;</string>
+    
+    <key>amazon</key>
+	<string>&#xe10d;</string>
+    
+    <key>amazon-2</key>
+	<string>&#xe10e;</string>
+    
+    <key>tux</key>
+	<string>&#xe10f;</string>
+    
+    <key>apple</key>
+	<string>&#xe110;</string>
+    
+    <key>finder</key>
+	<string>&#xe111;</string>
+    
+    <key>android</key>
+	<string>&#xe112;</string>
+    
+    <key>windows</key>
+	<string>&#xe113;</string>
+    
+    <key>soundcloud</key>
+	<string>&#xe114;</string>
+    
+    <key>soundcloud-2</key>
+	<string>&#xe115;</string>
+    
+    <key>skype</key>
+	<string>&#xe116;</string>
+    
+    <key>reddit</key>
+	<string>&#xe117;</string>
+    
+    <key>linkedin</key>
+	<string>&#xe118;</string>
+    
+    <key>linkedin-2</key>
+	<string>&#xe119;</string>
+    
+    <key>lastfm</key>
+	<string>&#xe11a;</string>
+    
+    <key>lastfm-2</key>
+	<string>&#xe11b;</string>
+    
+    <key>delicious</key>
+	<string>&#xe11c;</string>
+    
+    <key>stumbleupon</key>
+	<string>&#xe11d;</string>
+    
+    <key>stumbleupon-2</key>
+	<string>&#xe11e;</string>
+    
+    <key>pinterest</key>
+	<string>&#xe11f;</string>
+    
+    <key>pinterest-2</key>
+	<string>&#xe120;</string>
+    
+    <key>xing</key>
+	<string>&#xe121;</string>
+    
+    <key>xing-2</key>
+	<string>&#xe122;</string>
+    
+    <key>flattr</key>
+	<string>&#xe123;</string>
+    
+    <key>foursquare</key>
+	<string>&#xe124;</string>
+    
+    <key>foursquare-2</key>
+	<string>&#xe125;</string>
+    
+    <key>paypal</key>
+	<string>&#xe126;</string>
+    
+    <key>paypal-2</key>
+	<string>&#xe127;</string>
+    
+    <key>paypal-3</key>
+	<string>&#xe128;</string>
+    
+    <key>yelp</key>
+	<string>&#xe129;</string>
+    
+    <key>libreoffice</key>
+	<string>&#xe12a;</string>
+    
+    <key>file-pdf</key>
+	<string>&#xe12b;</string>
+    
+    <key>file-openoffice</key>
+	<string>&#xe12c;</string>
+    
+    <key>file-word</key>
+	<string>&#xe12d;</string>
+    
+    <key>file-excel</key>
+	<string>&#xe12e;</string>
+    
+    <key>file-powerpoint</key>
+	<string>&#xe12f;</string>
+    
+    <key>file-zip</key>
+	<string>&#xe130;</string>
+    
+    <key>file-xml</key>
+	<string>&#xe131;</string>
+    
+    <key>file-css</key>
+	<string>&#xe132;</string>
+    
+    <key>html5</key>
+	<string>&#xe133;</string>
+    
+    <key>html5-2</key>
+	<string>&#xe134;</string>
+    
+    <key>css3</key>
+	<string>&#xe135;</string>
+    
+    <key>chrome</key>
+	<string>&#xe136;</string>
+    
+    <key>firefox</key>
+	<string>&#xe137;</string>
+    
+    <key>IE</key>
+	<string>&#xe138;</string>
+    
+    <key>opera</key>
+	<string>&#xe139;</string>
+    
+    <key>safari</key>
+	<string>&#xe13a;</string>
+    
+    <key>IcoMoon</key>
+	<string>&#xe13b;</string>
+    
+
+</dict>
+</plist>

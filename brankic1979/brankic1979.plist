@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd</key>
+<plist version="1.0</key>
+<dict>
+    
+    <key>aids</key>
+	<string>&#xe000;</string>
+    
+    <key>heart</key>
+	<string>&#xe001;</string>
+    
+    <key>info</key>
+	<string>&#xe002;</string>
+    
+    <key>info-2</key>
+	<string>&#xe003;</string>
+    
+    <key>piano</key>
+	<string>&#xe004;</string>
+    
+    <key>rain</key>
+	<string>&#xe005;</string>
+    
+    <key>snow</key>
+	<string>&#xe006;</string>
+    
+    <key>lightning</key>
+	<string>&#xe007;</string>
+    
+    <key>sun</key>
+	<string>&#xe008;</string>
+    
+    <key>moon</key>
+	<string>&#xe009;</string>
+    
+    <key>cloudy</key>
+	<string>&#xe00a;</string>
+    
+    <key>cloudy-2</key>
+	<string>&#xe00b;</string>
+    
+    <key>car</key>
+	<string>&#xe00c;</string>
+    
+    <key>bike</key>
+	<string>&#xe00d;</string>
+    
+    <key>truck</key>
+	<string>&#xe00e;</string>
+    
+    <key>bus</key>
+	<string>&#xe00f;</string>
+    
+    <key>bike-2</key>
+	<string>&#xe010;</string>
+    
+    <key>plane</key>
+	<string>&#xe011;</string>
+    
+    <key>paper-plane</key>
+	<string>&#xe012;</string>
+    
+    <key>rocket</key>
+	<string>&#xe013;</string>
+    
+    <key>book</key>
+	<string>&#xe014;</string>
+    
+    <key>book-2</key>
+	<string>&#xe015;</string>
+    
+    <key>barcode</key>
+	<string>&#xe016;</string>
+    
+    <key>barcode-2</key>
+	<string>&#xe017;</string>
+    
+    <key>expand</key>
+	<string>&#xe018;</string>
+    
+    <key>collapse</key>
+	<string>&#xe019;</string>
+    
+    <key>pop-out</key>
+	<string>&#xe01a;</string>
+    
+    <key>pop-in</key>
+	<string>&#xe01b;</string>
+    
+    <key>target</key>
+	<string>&#xe01c;</string>
+    
+    <key>badge</key>
+	<string>&#xe01d;</string>
+    
+    <key>badge-2</key>
+	<string>&#xe01e;</string>
+    
+    <key>ticket</key>
+	<string>&#xe01f;</string>
+    
+    <key>ticket-2</key>
+	<string>&#xe020;</string>
+    
+    <key>ticket-3</key>
+	<string>&#xe021;</string>
+    
+    <key>microphone</key>
+	<string>&#xe022;</string>
+    
+    <key>cone</key>
+	<string>&#xe023;</string>
+    
+    <key>blocked</key>
+	<string>&#xe024;</string>
+    
+    <key>stop</key>
+	<string>&#xe025;</string>
+    
+    <key>keyboard</key>
+	<string>&#xe026;</string>
+    
+    <key>keyboard-2</key>
+	<string>&#xe027;</string>
+    
+    <key>radio</key>
+	<string>&#xe028;</string>
+    
+    <key>printer</key>
+	<string>&#xe029;</string>
+    
+    <key>checked</key>
+	<string>&#xe02a;</string>
+    
+    <key>error</key>
+	<string>&#xe02b;</string>
+    
+    <key>add</key>
+	<string>&#xe02c;</string>
+    
+    <key>minus</key>
+	<string>&#xe02d;</string>
+    
+    <key>alert</key>
+	<string>&#xe02e;</string>
+    
+    <key>pictures</key>
+	<string>&#xe02f;</string>
+    
+    <key>atom</key>
+	<string>&#xe030;</string>
+    
+    <key>eyedropper</key>
+	<string>&#xe031;</string>
+    
+    <key>globe</key>
+	<string>&#xe032;</string>
+    
+    <key>globe-2</key>
+	<string>&#xe033;</string>
+    
+    <key>shipping</key>
+	<string>&#xe034;</string>
+    
+    <key>ying-yang</key>
+	<string>&#xe035;</string>
+    
+    <key>compass</key>
+	<string>&#xe036;</string>
+    
+    <key>zip</key>
+	<string>&#xe037;</string>
+    
+    <key>zip-2</key>
+	<string>&#xe038;</string>
+    
+    <key>anchor</key>
+	<string>&#xe039;</string>
+    
+    <key>locked-heart</key>
+	<string>&#xe03a;</string>
+    
+    <key>magnet</key>
+	<string>&#xe03b;</string>
+    
+    <key>navigation</key>
+	<string>&#xe03c;</string>
+    
+    <key>tags</key>
+	<string>&#xe03d;</string>
+    
+    <key>heart-2</key>
+	<string>&#xe03e;</string>
+    
+    <key>heart-3</key>
+	<string>&#xe03f;</string>
+    
+    <key>usb</key>
+	<string>&#xe040;</string>
+    
+    <key>clipboard</key>
+	<string>&#xe041;</string>
+    
+    <key>clipboard-2</key>
+	<string>&#xe042;</string>
+    
+    <key>clipboard-3</key>
+	<string>&#xe043;</string>
+    
+    <key>switch</key>
+	<string>&#xe044;</string>
+    
+    <key>ruler</key>
+	<string>&#xe045;</string>
+    
+    <key>untitled</key>
+	<string>&#xe046;</string>
+    
+    <key>layout</key>
+	<string>&#xe047;</string>
+    
+    <key>layout-2</key>
+	<string>&#xe048;</string>
+    
+    <key>layout-3</key>
+	<string>&#xe049;</string>
+    
+    <key>layout-4</key>
+	<string>&#xe04a;</string>
+    
+    <key>tools</key>
+	<string>&#xe04b;</string>
+    
+    <key>screwdriver</key>
+	<string>&#xe04c;</string>
+    
+    <key>paint</key>
+	<string>&#xe04d;</string>
+    
+    <key>hammer</key>
+	<string>&#xe04e;</string>
+    
+    <key>brush</key>
+	<string>&#xe04f;</string>
+    
+    <key>pen</key>
+	<string>&#xe050;</string>
+    
+    <key>chat</key>
+	<string>&#xe051;</string>
+    
+    <key>comments</key>
+	<string>&#xe052;</string>
+    
+    <key>chat-2</key>
+	<string>&#xe053;</string>
+    
+    <key>chat-3</key>
+	<string>&#xe054;</string>
+    
+    <key>volume</key>
+	<string>&#xe055;</string>
+    
+    <key>volume-2</key>
+	<string>&#xe056;</string>
+    
+    <key>volume-3</key>
+	<string>&#xe057;</string>
+    
+    <key>equalizer</key>
+	<string>&#xe058;</string>
+    
+    <key>resize</key>
+	<string>&#xe059;</string>
+    
+    <key>resize-2</key>
+	<string>&#xe05a;</string>
+    
+    <key>stretch</key>
+	<string>&#xe05b;</string>
+    
+    <key>narrow</key>
+	<string>&#xe05c;</string>
+    
+    <key>resize-3</key>
+	<string>&#xe05d;</string>
+    
+    <key>download</key>
+	<string>&#xe05e;</string>
+    
+    <key>calculator</key>
+	<string>&#xe05f;</string>
+    
+    <key>library</key>
+	<string>&#xe060;</string>
+    
+    <key>auction</key>
+	<string>&#xe061;</string>
+    
+    <key>justice</key>
+	<string>&#xe062;</string>
+    
+    <key>stats</key>
+	<string>&#xe063;</string>
+    
+    <key>stats-2</key>
+	<string>&#xe064;</string>
+    
+    <key>attachment</key>
+	<string>&#xe065;</string>
+    
+    <key>hourglass</key>
+	<string>&#xe066;</string>
+    
+    <key>abacus</key>
+	<string>&#xe067;</string>
+    
+    <key>pencil</key>
+	<string>&#xe068;</string>
+    
+    <key>pen-2</key>
+	<string>&#xe069;</string>
+    
+    <key>pin</key>
+	<string>&#xe06a;</string>
+    
+    <key>pin-2</key>
+	<string>&#xe06b;</string>
+    
+    <key>discout</key>
+	<string>&#xe06c;</string>
+    
+    <key>edit</key>
+	<string>&#xe06d;</string>
+    
+    <key>scissors</key>
+	<string>&#xe06e;</string>
+    
+    <key>profile</key>
+	<string>&#xe06f;</string>
+    
+    <key>profile-2</key>
+	<string>&#xe070;</string>
+    
+    <key>profile-3</key>
+	<string>&#xe071;</string>
+    
+    <key>rotate</key>
+	<string>&#xe072;</string>
+    
+    <key>rotate-2</key>
+	<string>&#xe073;</string>
+    
+    <key>reply</key>
+	<string>&#xe074;</string>
+    
+    <key>forward</key>
+	<string>&#xe075;</string>
+    
+    <key>retweet</key>
+	<string>&#xe076;</string>
+    
+    <key>shuffle</key>
+	<string>&#xe077;</string>
+    
+    <key>loop</key>
+	<string>&#xe078;</string>
+    
+    <key>crop</key>
+	<string>&#xe079;</string>
+    
+    <key>square</key>
+	<string>&#xe07a;</string>
+    
+    <key>square-2</key>
+	<string>&#xe07b;</string>
+    
+    <key>circle</key>
+	<string>&#xe07c;</string>
+    
+    <key>dollar</key>
+	<string>&#xe07d;</string>
+    
+    <key>dollar-2</key>
+	<string>&#xe07e;</string>
+    
+    <key>coins</key>
+	<string>&#xe07f;</string>
+    
+    <key>pig</key>
+	<string>&#xe080;</string>
+    
+    <key>bookmark</key>
+	<string>&#xe081;</string>
+    
+    <key>bookmark-2</key>
+	<string>&#xe082;</string>
+    
+    <key>address-book</key>
+	<string>&#xe083;</string>
+    
+    <key>address-book-2</key>
+	<string>&#xe084;</string>
+    
+    <key>safe</key>
+	<string>&#xe085;</string>
+    
+    <key>envelope</key>
+	<string>&#xe086;</string>
+    
+    <key>envelope-2</key>
+	<string>&#xe087;</string>
+    
+    <key>radio-active</key>
+	<string>&#xe088;</string>
+    
+    <key>music</key>
+	<string>&#xe089;</string>
+    
+    <key>presentation</key>
+	<string>&#xe08a;</string>
+    
+    <key>male</key>
+	<string>&#xe08b;</string>
+    
+    <key>female</key>
+	<string>&#xe08c;</string>
+    
+    <key>smiley</key>
+	<string>&#xe08d;</string>
+    
+    <key>sad</key>
+	<string>&#xe08e;</string>
+    
+    <key>mute</key>
+	<string>&#xe08f;</string>
+    
+    <key>hand</key>
+	<string>&#xe090;</string>
+    
+    <key>radio-2</key>
+	<string>&#xe091;</string>
+    
+    <key>satellite</key>
+	<string>&#xe092;</string>
+    
+    <key>medal</key>
+	<string>&#xe093;</string>
+    
+    <key>medal-2</key>
+	<string>&#xe094;</string>
+    
+    <key>switch-2</key>
+	<string>&#xe095;</string>
+    
+    <key>key</key>
+	<string>&#xe096;</string>
+    
+    <key>cord</key>
+	<string>&#xe097;</string>
+    
+    <key>locked</key>
+	<string>&#xe098;</string>
+    
+    <key>unlocked</key>
+	<string>&#xe099;</string>
+    
+    <key>locked-2</key>
+	<string>&#xe09a;</string>
+    
+    <key>unlocked-2</key>
+	<string>&#xe09b;</string>
+    
+    <key>magnifier</key>
+	<string>&#xe09c;</string>
+    
+    <key>zoom-in</key>
+	<string>&#xe09d;</string>
+    
+    <key>zoom-out</key>
+	<string>&#xe09e;</string>
+    
+    <key>stack</key>
+	<string>&#xe09f;</string>
+    
+    <key>stack-2</key>
+	<string>&#xe0a0;</string>
+    
+    <key>stack-3</key>
+	<string>&#xe0a1;</string>
+    
+    <key>david-star</key>
+	<string>&#xe0a2;</string>
+    
+    <key>cross</key>
+	<string>&#xe0a3;</string>
+    
+    <key>moon-and-star</key>
+	<string>&#xe0a4;</string>
+    
+    <key>transformers</key>
+	<string>&#xe0a5;</string>
+    
+    <key>batman</key>
+	<string>&#xe0a6;</string>
+    
+    <key>space-invaders</key>
+	<string>&#xe0a7;</string>
+    
+    <key>skeletor</key>
+	<string>&#xe0a8;</string>
+    
+    <key>lamp</key>
+	<string>&#xe0a9;</string>
+    
+    <key>lamp-2</key>
+	<string>&#xe0aa;</string>
+    
+    <key>umbrella</key>
+	<string>&#xe0ab;</string>
+    
+    <key>street-light</key>
+	<string>&#xe0ac;</string>
+    
+    <key>bomb</key>
+	<string>&#xe0ad;</string>
+    
+    <key>archive</key>
+	<string>&#xe0ae;</string>
+    
+    <key>battery</key>
+	<string>&#xe0af;</string>
+    
+    <key>battery-2</key>
+	<string>&#xe0b0;</string>
+    
+    <key>battery-3</key>
+	<string>&#xe0b1;</string>
+    
+    <key>battery-4</key>
+	<string>&#xe0b2;</string>
+    
+    <key>battery-5</key>
+	<string>&#xe0b3;</string>
+    
+    <key>megaphone</key>
+	<string>&#xe0b4;</string>
+    
+    <key>megaphone-2</key>
+	<string>&#xe0b5;</string>
+    
+    <key>patch</key>
+	<string>&#xe0b6;</string>
+    
+    <key>pil</key>
+	<string>&#xe0b7;</string>
+    
+    <key>injection</key>
+	<string>&#xe0b8;</string>
+    
+    <key>thermometer</key>
+	<string>&#xe0b9;</string>
+    
+    <key>lamp-3</key>
+	<string>&#xe0ba;</string>
+    
+    <key>lamp-4</key>
+	<string>&#xe0bb;</string>
+    
+    <key>lamp-5</key>
+	<string>&#xe0bc;</string>
+    
+    <key>cube</key>
+	<string>&#xe0bd;</string>
+    
+    <key>box</key>
+	<string>&#xe0be;</string>
+    
+    <key>box-2</key>
+	<string>&#xe0bf;</string>
+    
+    <key>diamond</key>
+	<string>&#xe0c0;</string>
+    
+    <key>bag</key>
+	<string>&#xe0c1;</string>
+    
+    <key>money-bag</key>
+	<string>&#xe0c2;</string>
+    
+    <key>grid</key>
+	<string>&#xe0c3;</string>
+    
+    <key>grid-2</key>
+	<string>&#xe0c4;</string>
+    
+    <key>list</key>
+	<string>&#xe0c5;</string>
+    
+    <key>list-2</key>
+	<string>&#xe0c6;</string>
+    
+    <key>ruler-2</key>
+	<string>&#xe0c7;</string>
+    
+    <key>ruler-3</key>
+	<string>&#xe0c8;</string>
+    
+    <key>layout-5</key>
+	<string>&#xe0c9;</string>
+    
+    <key>layout-6</key>
+	<string>&#xe0ca;</string>
+    
+    <key>layout-7</key>
+	<string>&#xe0cb;</string>
+    
+    <key>layout-8</key>
+	<string>&#xe0cc;</string>
+    
+    <key>layout-9</key>
+	<string>&#xe0cd;</string>
+    
+    <key>layout-10</key>
+	<string>&#xe0ce;</string>
+    
+    <key>layout-11</key>
+	<string>&#xe0cf;</string>
+    
+    <key>layout-12</key>
+	<string>&#xe0d0;</string>
+    
+    <key>layout-13</key>
+	<string>&#xe0d1;</string>
+    
+    <key>layout-14</key>
+	<string>&#xe0d2;</string>
+    
+    <key>notice</key>
+	<string>&#xe0d3;</string>
+    
+    <key>notice-2</key>
+	<string>&#xe0d4;</string>
+    
+    <key>cog</key>
+	<string>&#xe0d5;</string>
+    
+    <key>cogs</key>
+	<string>&#xe0d6;</string>
+    
+    <key>cog-2</key>
+	<string>&#xe0d7;</string>
+    
+    <key>warning</key>
+	<string>&#xe0d8;</string>
+    
+    <key>health</key>
+	<string>&#xe0d9;</string>
+    
+    <key>suitcase</key>
+	<string>&#xe0da;</string>
+    
+    <key>suitcase-2</key>
+	<string>&#xe0db;</string>
+    
+    <key>suitcase-3</key>
+	<string>&#xe0dc;</string>
+    
+    <key>picture</key>
+	<string>&#xe0dd;</string>
+    
+    <key>pictures-2</key>
+	<string>&#xe0de;</string>
+    
+    <key>pictures-3</key>
+	<string>&#xe0df;</string>
+    
+    <key>android</key>
+	<string>&#xe0e0;</string>
+    
+    <key>marvin</key>
+	<string>&#xe0e1;</string>
+    
+    <key>pacman</key>
+	<string>&#xe0e2;</string>
+    
+    <key>cassette</key>
+	<string>&#xe0e3;</string>
+    
+    <key>watch</key>
+	<string>&#xe0e4;</string>
+    
+    <key>chronometer</key>
+	<string>&#xe0e5;</string>
+    
+    <key>watch-2</key>
+	<string>&#xe0e6;</string>
+    
+    <key>alarm-clock</key>
+	<string>&#xe0e7;</string>
+    
+    <key>time</key>
+	<string>&#xe0e8;</string>
+    
+    <key>time-2</key>
+	<string>&#xe0e9;</string>
+    
+    <key>headphones</key>
+	<string>&#xe0ea;</string>
+    
+    <key>wallet</key>
+	<string>&#xe0eb;</string>
+    
+    <key>checkmark</key>
+	<string>&#xe0ec;</string>
+    
+    <key>cancel</key>
+	<string>&#xe0ed;</string>
+    
+    <key>eye</key>
+	<string>&#xe0ee;</string>
+    
+    <key>position</key>
+	<string>&#xe0ef;</string>
+    
+    <key>site-map</key>
+	<string>&#xe0f0;</string>
+    
+    <key>site-map-2</key>
+	<string>&#xe0f1;</string>
+    
+    <key>cloud</key>
+	<string>&#xe0f2;</string>
+    
+    <key>upload</key>
+	<string>&#xe0f3;</string>
+    
+    <key>chart</key>
+	<string>&#xe0f4;</string>
+    
+    <key>chart-2</key>
+	<string>&#xe0f5;</string>
+    
+    <key>chart-3</key>
+	<string>&#xe0f6;</string>
+    
+    <key>chart-4</key>
+	<string>&#xe0f7;</string>
+    
+    <key>chart-5</key>
+	<string>&#xe0f8;</string>
+    
+    <key>chart-6</key>
+	<string>&#xe0f9;</string>
+    
+    <key>location</key>
+	<string>&#xe0fa;</string>
+    
+    <key>download-2</key>
+	<string>&#xe0fb;</string>
+    
+    <key>basket</key>
+	<string>&#xe0fc;</string>
+    
+    <key>folder</key>
+	<string>&#xe0fd;</string>
+    
+    <key>gamepad</key>
+	<string>&#xe0fe;</string>
+    
+    <key>alarm</key>
+	<string>&#xe0ff;</string>
+    
+    <key>alarm-cancel</key>
+	<string>&#xe100;</string>
+    
+    <key>phone</key>
+	<string>&#xe101;</string>
+    
+    <key>phone-2</key>
+	<string>&#xe102;</string>
+    
+    <key>image</key>
+	<string>&#xe103;</string>
+    
+    <key>open</key>
+	<string>&#xe104;</string>
+    
+    <key>sale</key>
+	<string>&#xe105;</string>
+    
+    <key>direction</key>
+	<string>&#xe106;</string>
+    
+    <key>map</key>
+	<string>&#xe107;</string>
+    
+    <key>trashcan</key>
+	<string>&#xe108;</string>
+    
+    <key>vote</key>
+	<string>&#xe109;</string>
+    
+    <key>graduate</key>
+	<string>&#xe10a;</string>
+    
+    <key>lab</key>
+	<string>&#xe10b;</string>
+    
+    <key>tie</key>
+	<string>&#xe10c;</string>
+    
+    <key>football</key>
+	<string>&#xe10d;</string>
+    
+    <key>eight-ball</key>
+	<string>&#xe10e;</string>
+    
+    <key>bowling</key>
+	<string>&#xe10f;</string>
+    
+    <key>bowling-pin</key>
+	<string>&#xe110;</string>
+    
+    <key>baseball</key>
+	<string>&#xe111;</string>
+    
+    <key>soccer</key>
+	<string>&#xe112;</string>
+    
+    <key>3d-glasses</key>
+	<string>&#xe113;</string>
+    
+    <key>microwave</key>
+	<string>&#xe114;</string>
+    
+    <key>refrigerator</key>
+	<string>&#xe115;</string>
+    
+    <key>oven</key>
+	<string>&#xe116;</string>
+    
+    <key>washing-machine</key>
+	<string>&#xe117;</string>
+    
+    <key>mouse</key>
+	<string>&#xe118;</string>
+    
+    <key>number</key>
+	<string>&#xe119;</string>
+    
+    <key>number-2</key>
+	<string>&#xe11a;</string>
+    
+    <key>number-3</key>
+	<string>&#xe11b;</string>
+    
+    <key>number-4</key>
+	<string>&#xe11c;</string>
+    
+    <key>number-5</key>
+	<string>&#xe11d;</string>
+    
+    <key>number-6</key>
+	<string>&#xe11e;</string>
+    
+    <key>number-7</key>
+	<string>&#xe11f;</string>
+    
+    <key>number-8</key>
+	<string>&#xe120;</string>
+    
+    <key>number-9</key>
+	<string>&#xe121;</string>
+    
+    <key>number-10</key>
+	<string>&#xe122;</string>
+    
+    <key>number-11</key>
+	<string>&#xe123;</string>
+    
+    <key>number-12</key>
+	<string>&#xe124;</string>
+    
+    <key>number-13</key>
+	<string>&#xe125;</string>
+    
+    <key>number-14</key>
+	<string>&#xe126;</string>
+    
+    <key>number-15</key>
+	<string>&#xe127;</string>
+    
+    <key>number-16</key>
+	<string>&#xe128;</string>
+    
+    <key>number-17</key>
+	<string>&#xe129;</string>
+    
+    <key>number-18</key>
+	<string>&#xe12a;</string>
+    
+    <key>number-19</key>
+	<string>&#xe12b;</string>
+    
+    <key>number-20</key>
+	<string>&#xe12c;</string>
+    
+    <key>quote</key>
+	<string>&#xe12d;</string>
+    
+    <key>quote-2</key>
+	<string>&#xe12e;</string>
+    
+    <key>tag</key>
+	<string>&#xe12f;</string>
+    
+    <key>tag-2</key>
+	<string>&#xe130;</string>
+    
+    <key>link</key>
+	<string>&#xe131;</string>
+    
+    <key>link-2</key>
+	<string>&#xe132;</string>
+    
+    <key>cabinet</key>
+	<string>&#xe133;</string>
+    
+    <key>cabinet-2</key>
+	<string>&#xe134;</string>
+    
+    <key>calendar</key>
+	<string>&#xe135;</string>
+    
+    <key>calendar-2</key>
+	<string>&#xe136;</string>
+    
+    <key>calendar-3</key>
+	<string>&#xe137;</string>
+    
+    <key>file</key>
+	<string>&#xe138;</string>
+    
+    <key>file-2</key>
+	<string>&#xe139;</string>
+    
+    <key>file-3</key>
+	<string>&#xe13a;</string>
+    
+    <key>files</key>
+	<string>&#xe13b;</string>
+    
+    <key>phone-3</key>
+	<string>&#xe13c;</string>
+    
+    <key>tablet</key>
+	<string>&#xe13d;</string>
+    
+    <key>window</key>
+	<string>&#xe13e;</string>
+    
+    <key>monitor</key>
+	<string>&#xe13f;</string>
+    
+    <key>ipod</key>
+	<string>&#xe140;</string>
+    
+    <key>tv</key>
+	<string>&#xe141;</string>
+    
+    <key>camera</key>
+	<string>&#xe142;</string>
+    
+    <key>camera-2</key>
+	<string>&#xe143;</string>
+    
+    <key>camera-3</key>
+	<string>&#xe144;</string>
+    
+    <key>film</key>
+	<string>&#xe145;</string>
+    
+    <key>film-2</key>
+	<string>&#xe146;</string>
+    
+    <key>film-3</key>
+	<string>&#xe147;</string>
+    
+    <key>microphone-2</key>
+	<string>&#xe148;</string>
+    
+    <key>microphone-3</key>
+	<string>&#xe149;</string>
+    
+    <key>microphone-4</key>
+	<string>&#xe14a;</string>
+    
+    <key>drink</key>
+	<string>&#xe14b;</string>
+    
+    <key>drink-2</key>
+	<string>&#xe14c;</string>
+    
+    <key>drink-3</key>
+	<string>&#xe14d;</string>
+    
+    <key>drink-4</key>
+	<string>&#xe14e;</string>
+    
+    <key>coffee</key>
+	<string>&#xe14f;</string>
+    
+    <key>mug</key>
+	<string>&#xe150;</string>
+    
+    <key>ice-cream</key>
+	<string>&#xe151;</string>
+    
+    <key>cake</key>
+	<string>&#xe152;</string>
+    
+    <key>inbox</key>
+	<string>&#xe153;</string>
+    
+    <key>download-3</key>
+	<string>&#xe154;</string>
+    
+    <key>upload-2</key>
+	<string>&#xe155;</string>
+    
+    <key>inbox-2</key>
+	<string>&#xe156;</string>
+    
+    <key>checkmark-2</key>
+	<string>&#xe157;</string>
+    
+    <key>checkmark-3</key>
+	<string>&#xe158;</string>
+    
+    <key>cancel-2</key>
+	<string>&#xe159;</string>
+    
+    <key>cancel-3</key>
+	<string>&#xe15a;</string>
+    
+    <key>plus</key>
+	<string>&#xe15b;</string>
+    
+    <key>plus-2</key>
+	<string>&#xe15c;</string>
+    
+    <key>minus-2</key>
+	<string>&#xe15d;</string>
+    
+    <key>minus-3</key>
+	<string>&#xe15e;</string>
+    
+
+
+</dict>
+</plist>

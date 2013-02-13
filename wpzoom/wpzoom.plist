@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd</key>
+<plist version="1.0</key>
+<dict>
+    
+    <key>facebook</key>
+	<string>&#xe000;</string>
+    
+    <key>twitter-old</key>
+	<string>&#xe001;</string>
+    
+    <key>share</key>
+	<string>&#xe002;</string>
+    
+    <key>feed</key>
+	<string>&#xe003;</string>
+    
+    <key>bird</key>
+	<string>&#xe004;</string>
+    
+    <key>chat</key>
+	<string>&#xe005;</string>
+    
+    <key>envelope</key>
+	<string>&#xe006;</string>
+    
+    <key>envelope-2</key>
+	<string>&#xe007;</string>
+    
+    <key>phone</key>
+	<string>&#xe008;</string>
+    
+    <key>phone-2</key>
+	<string>&#xe009;</string>
+    
+    <key>phone-3</key>
+	<string>&#xe00a;</string>
+    
+    <key>mobile</key>
+	<string>&#xe00b;</string>
+    
+    <key>ipod</key>
+	<string>&#xe00c;</string>
+    
+    <key>monitor</key>
+	<string>&#xe00d;</string>
+    
+    <key>laptop</key>
+	<string>&#xe00e;</string>
+    
+    <key>modem</key>
+	<string>&#xe00f;</string>
+    
+    <key>speaker</key>
+	<string>&#xe010;</string>
+    
+    <key>window</key>
+	<string>&#xe011;</string>
+    
+    <key>server</key>
+	<string>&#xe012;</string>
+    
+    <key>hdd</key>
+	<string>&#xe013;</string>
+    
+    <key>keyboard</key>
+	<string>&#xe014;</string>
+    
+    <key>mouse</key>
+	<string>&#xe015;</string>
+    
+    <key>cd</key>
+	<string>&#xe016;</string>
+    
+    <key>floppy</key>
+	<string>&#xe017;</string>
+    
+    <key>hardware</key>
+	<string>&#xe018;</string>
+    
+    <key>usb</key>
+	<string>&#xe019;</string>
+    
+    <key>cord</key>
+	<string>&#xe01a;</string>
+    
+    <key>socket</key>
+	<string>&#xe01b;</string>
+    
+    <key>socket-2</key>
+	<string>&#xe01c;</string>
+    
+    <key>socket-3</key>
+	<string>&#xe01d;</string>
+    
+    <key>printer</key>
+	<string>&#xe01e;</string>
+    
+    <key>camera</key>
+	<string>&#xe01f;</string>
+    
+    <key>pictures</key>
+	<string>&#xe020;</string>
+    
+    <key>eye</key>
+	<string>&#xe021;</string>
+    
+    <key>untitled</key>
+	<string>&#xe022;</string>
+    
+    <key>film</key>
+	<string>&#xe023;</string>
+    
+    <key>camera-2</key>
+	<string>&#xe024;</string>
+    
+    <key>movie</key>
+	<string>&#xe025;</string>
+    
+    <key>tv</key>
+	<string>&#xe026;</string>
+    
+    <key>camera-3</key>
+	<string>&#xe027;</string>
+    
+    <key>camera-4</key>
+	<string>&#xe028;</string>
+    
+    <key>volume</key>
+	<string>&#xe029;</string>
+    
+    <key>music</key>
+	<string>&#xe02a;</string>
+    
+    <key>microphone</key>
+	<string>&#xe02b;</string>
+    
+    <key>radio</key>
+	<string>&#xe02c;</string>
+    
+    <key>ipod-2</key>
+	<string>&#xe02d;</string>
+    
+    <key>headphone</key>
+	<string>&#xe02e;</string>
+    
+    <key>cassette</key>
+	<string>&#xe02f;</string>
+    
+    <key>broadcast</key>
+	<string>&#xe030;</string>
+    
+    <key>broadcast-2</key>
+	<string>&#xe031;</string>
+    
+    <key>calculator</key>
+	<string>&#xe032;</string>
+    
+    <key>gamepad</key>
+	<string>&#xe033;</string>
+    
+    <key>gamepad-2</key>
+	<string>&#xe034;</string>
+    
+    <key>cog</key>
+	<string>&#xe035;</string>
+    
+    <key>shield</key>
+	<string>&#xe036;</string>
+    
+    <key>skull</key>
+	<string>&#xe037;</string>
+    
+    <key>bug</key>
+	<string>&#xe038;</string>
+    
+    <key>mine</key>
+	<string>&#xe039;</string>
+    
+    <key>earth</key>
+	<string>&#xe03a;</string>
+    
+    <key>globe</key>
+	<string>&#xe03b;</string>
+    
+    <key>planet</key>
+	<string>&#xe03c;</string>
+    
+    <key>battery</key>
+	<string>&#xe03d;</string>
+    
+    <key>battery-low</key>
+	<string>&#xe03e;</string>
+    
+    <key>battery-2</key>
+	<string>&#xe03f;</string>
+    
+    <key>battery-full</key>
+	<string>&#xe040;</string>
+    
+    <key>folder</key>
+	<string>&#xe041;</string>
+    
+    <key>search</key>
+	<string>&#xe042;</string>
+    
+    <key>zoom-out</key>
+	<string>&#xe043;</string>
+    
+    <key>zoom-in</key>
+	<string>&#xe044;</string>
+    
+    <key>binocular</key>
+	<string>&#xe045;</string>
+    
+    <key>location</key>
+	<string>&#xe046;</string>
+    
+    <key>pin</key>
+	<string>&#xe047;</string>
+    
+    <key>file</key>
+	<string>&#xe048;</string>
+    
+    <key>tag</key>
+	<string>&#xe049;</string>
+    
+    <key>quote</key>
+	<string>&#xe04a;</string>
+    
+    <key>attachment</key>
+	<string>&#xe04b;</string>
+    
+    <key>bookmark</key>
+	<string>&#xe04c;</string>
+    
+    <key>bookmark-2</key>
+	<string>&#xe04d;</string>
+    
+    <key>newspaper</key>
+	<string>&#xe04e;</string>
+    
+    <key>notebook</key>
+	<string>&#xe04f;</string>
+    
+    <key>address-book</key>
+	<string>&#xe050;</string>
+    
+    <key>clipboard</key>
+	<string>&#xe051;</string>
+    
+    <key>clipboard-2</key>
+	<string>&#xe052;</string>
+    
+    <key>board</key>
+	<string>&#xe053;</string>
+    
+    <key>pencil</key>
+	<string>&#xe054;</string>
+    
+    <key>pen</key>
+	<string>&#xe055;</string>
+    
+    <key>user</key>
+	<string>&#xe056;</string>
+    
+    <key>user-2</key>
+	<string>&#xe057;</string>
+    
+    <key>user-3</key>
+	<string>&#xe058;</string>
+    
+    <key>trashcan</key>
+	<string>&#xe059;</string>
+    
+    <key>cart</key>
+	<string>&#xe05a;</string>
+    
+    <key>bag</key>
+	<string>&#xe05b;</string>
+    
+    <key>suitcase</key>
+	<string>&#xe05c;</string>
+    
+    <key>card</key>
+	<string>&#xe05d;</string>
+    
+    <key>book</key>
+	<string>&#xe05e;</string>
+    
+    <key>gift</key>
+	<string>&#xe05f;</string>
+    
+    <key>lamp</key>
+	<string>&#xe060;</string>
+    
+    <key>settings</key>
+	<string>&#xe061;</string>
+    
+    <key>support</key>
+	<string>&#xe062;</string>
+    
+    <key>medicine</key>
+	<string>&#xe063;</string>
+    
+    <key>cone</key>
+	<string>&#xe064;</string>
+    
+    <key>locked</key>
+	<string>&#xe065;</string>
+    
+    <key>unlocked</key>
+	<string>&#xe066;</string>
+    
+    <key>key</key>
+	<string>&#xe067;</string>
+    
+    <key>info</key>
+	<string>&#xe068;</string>
+    
+    <key>clock</key>
+	<string>&#xe069;</string>
+    
+    <key>timer</key>
+	<string>&#xe06a;</string>
+    
+    <key>food</key>
+	<string>&#xe06b;</string>
+    
+    <key>drink</key>
+	<string>&#xe06c;</string>
+    
+    <key>mug</key>
+	<string>&#xe06d;</string>
+    
+    <key>cup</key>
+	<string>&#xe06e;</string>
+    
+    <key>drink-2</key>
+	<string>&#xe06f;</string>
+    
+    <key>mug-2</key>
+	<string>&#xe070;</string>
+    
+    <key>lollipop</key>
+	<string>&#xe071;</string>
+    
+    <key>lab</key>
+	<string>&#xe072;</string>
+    
+    <key>puzzle</key>
+	<string>&#xe073;</string>
+    
+    <key>flag</key>
+	<string>&#xe074;</string>
+    
+    <key>star</key>
+	<string>&#xe075;</string>
+    
+    <key>heart</key>
+	<string>&#xe076;</string>
+    
+    <key>badge</key>
+	<string>&#xe077;</string>
+    
+    <key>cup-2</key>
+	<string>&#xe078;</string>
+    
+    <key>scissors</key>
+	<string>&#xe079;</string>
+    
+    <key>snowflake</key>
+	<string>&#xe07a;</string>
+    
+    <key>cloud</key>
+	<string>&#xe07b;</string>
+    
+    <key>lightning</key>
+	<string>&#xe07c;</string>
+    
+    <key>night</key>
+	<string>&#xe07d;</string>
+    
+    <key>sunny</key>
+	<string>&#xe07e;</string>
+    
+    <key>droplet</key>
+	<string>&#xe07f;</string>
+    
+    <key>umbrella</key>
+	<string>&#xe080;</string>
+    
+    <key>truck</key>
+	<string>&#xe081;</string>
+    
+    <key>car</key>
+	<string>&#xe082;</string>
+    
+    <key>gas-pump</key>
+	<string>&#xe083;</string>
+    
+    <key>factory</key>
+	<string>&#xe084;</string>
+    
+    <key>tree</key>
+	<string>&#xe085;</string>
+    
+    <key>leaf</key>
+	<string>&#xe086;</string>
+    
+    <key>flower</key>
+	<string>&#xe087;</string>
+    
+    <key>direction</key>
+	<string>&#xe088;</string>
+    
+    <key>thumbs-up</key>
+	<string>&#xe089;</string>
+    
+    <key>thumbs-down</key>
+	<string>&#xe08a;</string>
+    
+    <key>pointer</key>
+	<string>&#xe08b;</string>
+    
+    <key>pointer-2</key>
+	<string>&#xe08c;</string>
+    
+    <key>pointer-3</key>
+	<string>&#xe08d;</string>
+    
+    <key>pointer-4</key>
+	<string>&#xe08e;</string>
+    
+    <key>arrow-up</key>
+	<string>&#xe08f;</string>
+    
+    <key>arrow-down</key>
+	<string>&#xe090;</string>
+    
+    <key>arrow-left</key>
+	<string>&#xe091;</string>
+    
+    <key>arrow-right</key>
+	<string>&#xe092;</string>
+    
+    <key>arrow-top-right</key>
+	<string>&#xe093;</string>
+    
+    <key>arrow-top-left</key>
+	<string>&#xe094;</string>
+    
+    <key>arrow-bottom-right</key>
+	<string>&#xe095;</string>
+    
+    <key>arrow-bottom-left</key>
+	<string>&#xe096;</string>
+    
+    <key>contract</key>
+	<string>&#xe097;</string>
+    
+    <key>enlarge</key>
+	<string>&#xe098;</string>
+    
+    <key>refresh</key>
+	<string>&#xe099;</string>
+    
+
+</dict>
+</plist>

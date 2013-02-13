@@ -45,5 +45,8 @@ Pod::Spec.new do |s|
   s.subspec 'modernpics' do |modernpics|
     modernpics.resource = 'modernpics/**/*.{ttf,otf,plist}'
   end
+  s.subspec 'wpzoom' do |wpzoom|
+    wpzoom.resource = 'wpzoom/**/*.{ttf,otf,plist}'
+  end
 
 end

@@ -46,6 +46,10 @@
 		495AC8D316664690007164DA /* fontawesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 495AC8D216664690007164DA /* fontawesome.ttf */; };
 		495AC8D51666476A007164DA /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495AC8D41666476A007164DA /* CoreText.framework */; };
 		495AC8D71666689A007164DA /* fontawesome.plist in Resources */ = {isa = PBXBuildFile; fileRef = 495AC8D61666689A007164DA /* fontawesome.plist */; };
+		49E7D75E1753AF7500F72F52 /* WTTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E7D75C1753AF7500F72F52 /* WTTestViewController.m */; };
+		49E7D75F1753AF7500F72F52 /* WTTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49E7D75D1753AF7500F72F52 /* WTTestViewController.xib */; };
+		49E7D7631754474700F72F52 /* mainicon.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49E7D7611754474700F72F52 /* mainicon.plist */; };
+		49E7D7641754474700F72F52 /* mainicon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49E7D7621754474700F72F52 /* mainicon.ttf */; };
 		49FF693E1668D48500804543 /* brankic1979.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49FF693C1668D48500804543 /* brankic1979.plist */; };
 		49FF693F1668D48500804543 /* brankic1979.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49FF693D1668D48500804543 /* brankic1979.ttf */; };
 		49FF69441668D68A00804543 /* icomoon.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49FF69421668D68A00804543 /* icomoon.plist */; };
@@ -60,7 +64,6 @@
 		4918AC481666ECB60016CF63 /* iconic_fill.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = iconic_fill.ttf; path = iconic/iconic_fill.ttf; sourceTree = "<group>"; };
 		4918AC4C1666EDCF0016CF63 /* iconic_stroke.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = iconic_stroke.plist; path = iconic/iconic_stroke.plist; sourceTree = "<group>"; };
 		4918AC501666EDF30016CF63 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = iconic/LICENSE; sourceTree = "<group>"; };
-		4918AC521666EE100016CF63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		4918AC591666F6D50016CF63 /* entypo-social.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "entypo-social.plist"; sourceTree = "<group>"; };
 		4918AC5A1666F6D50016CF63 /* entypo-social.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "entypo-social.ttf"; sourceTree = "<group>"; };
 		4918AC5B1666F6D50016CF63 /* entypo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = entypo.plist; sourceTree = "<group>"; };
@@ -103,6 +106,11 @@
 		495AC8D216664690007164DA /* fontawesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontawesome.ttf; sourceTree = "<group>"; };
 		495AC8D41666476A007164DA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		495AC8D61666689A007164DA /* fontawesome.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fontawesome.plist; sourceTree = "<group>"; };
+		49E7D75B1753AF7500F72F52 /* WTTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTTestViewController.h; sourceTree = "<group>"; };
+		49E7D75C1753AF7500F72F52 /* WTTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTTestViewController.m; sourceTree = "<group>"; };
+		49E7D75D1753AF7500F72F52 /* WTTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTTestViewController.xib; sourceTree = "<group>"; };
+		49E7D7611754474700F72F52 /* mainicon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = mainicon.plist; path = fontcustom/mainicon.plist; sourceTree = "<group>"; };
+		49E7D7621754474700F72F52 /* mainicon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = mainicon.ttf; path = fontcustom/mainicon.ttf; sourceTree = "<group>"; };
 		49FF693C1668D48500804543 /* brankic1979.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = brankic1979.plist; sourceTree = "<group>"; };
 		49FF693D1668D48500804543 /* brankic1979.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = brankic1979.ttf; sourceTree = "<group>"; };
 		49FF69421668D68A00804543 /* icomoon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = icomoon.plist; sourceTree = "<group>"; };
@@ -167,6 +175,7 @@
 		4918AC711666F6EA0016CF63 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				49E7D7601754473800F72F52 /* fontcustom */,
 				4920FBCB16A3DF9A0066D5F4 /* condense-c */,
 				49FF69461668DB4500804543 /* wpzoom */,
 				49FF69411668D68A00804543 /* icomoon */,
@@ -250,6 +259,9 @@
 				4918AC81166707200016CF63 /* WTFontViewController.h */,
 				4918AC82166707200016CF63 /* WTFontViewController.m */,
 				4918AC83166707200016CF63 /* WTFontViewController.xib */,
+				49E7D75B1753AF7500F72F52 /* WTTestViewController.h */,
+				49E7D75C1753AF7500F72F52 /* WTTestViewController.m */,
+				49E7D75D1753AF7500F72F52 /* WTTestViewController.xib */,
 			);
 			path = WTGlyphFontSetDemo;
 			sourceTree = "<group>";
@@ -280,11 +292,19 @@
 		495AC8D116664690007164DA /* fontawesome */ = {
 			isa = PBXGroup;
 			children = (
-				4918AC521666EE100016CF63 /* README.md */,
 				495AC8D216664690007164DA /* fontawesome.ttf */,
 				495AC8D61666689A007164DA /* fontawesome.plist */,
 			);
 			path = fontawesome;
+			sourceTree = "<group>";
+		};
+		49E7D7601754473800F72F52 /* fontcustom */ = {
+			isa = PBXGroup;
+			children = (
+				49E7D7611754474700F72F52 /* mainicon.plist */,
+				49E7D7621754474700F72F52 /* mainicon.ttf */,
+			);
+			name = fontcustom;
 			sourceTree = "<group>";
 		};
 		49FF693B1668D48500804543 /* brankic1979 */ = {
@@ -402,6 +422,9 @@
 				49FF694A1668DB4500804543 /* wpzoom.ttf in Resources */,
 				4920FBCD16A3DF9A0066D5F4 /* CONDENSEicon.ttf in Resources */,
 				4920FBCF16A3DFB50066D5F4 /* CONDENSEicon.plist in Resources */,
+				49E7D75F1753AF7500F72F52 /* WTTestViewController.xib in Resources */,
+				49E7D7631754474700F72F52 /* mainicon.plist in Resources */,
+				49E7D7641754474700F72F52 /* mainicon.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +440,7 @@
 				495AC8C71666461B007164DA /* WTViewController.m in Sources */,
 				495AC8CF1666464A007164DA /* WTGlyphFontSet.m in Sources */,
 				4918AC84166707200016CF63 /* WTFontViewController.m in Sources */,
+				49E7D75E1753AF7500F72F52 /* WTTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

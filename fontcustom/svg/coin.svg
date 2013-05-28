@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px"
+	 height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<g id="Center_guide_1_">
+</g>
+<g id="Baseline">
+</g>
+<g id="Baseline_guide">
+</g>
+<g id="Font_Height" display="none">
+	<path display="inline" d="M433,231c0,97.754-79.246,177-177,177c-97.754,0-177-79.246-177-177c0-97.754,79.746-175,177.5-175
+		C354.254,56,433,133.246,433,231z M373,232L177,103v251L373,232z"/>
+</g>
+<g id="Center_to_Font">
+	<path d="M489,232.5C489,360.906,384.906,465,256.5,465C128.094,465,24,360.906,24,232.5C24,104.094,128.094,0,256.5,0
+		C384.906,0,489,104.094,489,232.5z M311,178H202v109h109V178z"/>
+</g>
+</svg>

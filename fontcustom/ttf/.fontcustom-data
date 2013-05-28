@@ -1,0 +1,19 @@
+{
+  "fonts": [
+    "mainicon_5b754fb7af69c97021dcc554c63f34d7.ttf",
+    "mainicon_5b754fb7af69c97021dcc554c63f34d7.woff",
+    "mainicon_5b754fb7af69c97021dcc554c63f34d7.eot",
+    "mainicon_5b754fb7af69c97021dcc554c63f34d7.svg"
+  ],
+  "templates": [
+    "fontcustom.css",
+    "fontcustom-preview.html"
+  ],
+  "file_name": "mainicon_5b754fb7af69c97021dcc554c63f34d7",
+  "glyphs": [
+    "baseline-test",
+    "circle-arrow-up",
+    "coin",
+    "grid"
+  ]
+}

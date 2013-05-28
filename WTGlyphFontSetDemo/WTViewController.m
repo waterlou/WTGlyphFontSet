@@ -9,6 +9,7 @@
 #import "WTViewController.h"
 #import "WTGlyphFontSet.h"
 #import "WTFontViewController.h"
+#import "WTTestViewController.h"
 
 @interface WTViewController ()
 
@@ -24,7 +25,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     _fontlist = @[
-    @{@"name": @"fontawesome", @"file": @"fontawesome.ttf", @"url": @"http://fortawesome.github.com/Font-Awesome/"},
+    @{@"name": @"Font Awesome 3.0", @"file": @"fontawesome.ttf", @"url": @"http://fortawesome.github.com/Font-Awesome/"},
     @{@"name": @"iconic_fill", @"file": @"iconic_fill.ttf", @"url": @"http://somerandomdude.com/work/iconic/"},
     @{@"name": @"iconic_stroke", @"file": @"iconic_stroke.ttf", @"url": @"http://somerandomdude.com/work/iconic/"},
     @{@"name": @"entypo", @"file": @"entypo.ttf", @"url": @"http://www.entypo.com/"},
@@ -39,11 +40,12 @@
     @{@"name": @"icomoon", @"file": @"icomoon.ttf", @"url": @"http://icomoon.io"},
     @{@"name": @"wpzoom", @"file": @"wpzoom.ttf", @"url": @"http://www.wpzoom.com/wpzoom/new-freebie-wpzoom-developer-icon-set-154-free-icons/"},
     @{@"name": @"CONDENSEicon", @"file": @"CONDENSEicon.ttf", @"url": @"http://icon.condense-c.com"},
+    @{@"name": @"Font Custom", @"file": @"mainicon.ttf", @"url": @"http://fontcustom.com"},
     ];
     
     // use icon as back button
     UIBarButtonItem *backButtonItem = [[UIBarButtonItem alloc] init];
-    backButtonItem.image = [[WTGlyphFontSet fontSet: @"general_foundicons"] image:CGSizeMake(36, 20) name:@"left-arrow" color:[UIColor whiteColor]];
+    backButtonItem.image = [[WTGlyphFontSet fontSet: @"general_foundicons"] image:CGSizeMake(36, 20) name:@"left-arrow" color:[UIColor whiteColor] ];
     self.navigationItem.backBarButtonItem = backButtonItem;
 
 
@@ -57,8 +59,15 @@
 
 #pragma mark -
 #pragma mark Table Data Source Methods
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 2;
+}
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
+    if (section==0) return 1;
 	return [_fontlist count];
 }
 
@@ -67,9 +76,16 @@
 	static NSString *cellIdentifier = @"CellIdentifier";
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     
+    if (indexPath.section==0) {
+        cell.textLabel.text = @"== Demo ==";
+        cell.accessoryType = UITableViewCellAccessoryNone;
+        return cell;
+    }
+    
 	NSUInteger row = [indexPath row];
 	
 	cell.textLabel.text = _fontlist[row][@"name"];
+    cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
 	return cell;
 }
 
@@ -77,7 +93,12 @@
 
 // The user selected a peer from the list to connect to.
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{    
+{
+    if (indexPath.section==0) {
+        WTTestViewController *vc = [[WTTestViewController alloc] initWithNibName:@"WTTestViewController" bundle:nil];
+        [self.navigationController pushViewController:vc animated:YES];
+        return;
+    }
     WTFontViewController *vc = [[WTFontViewController alloc] initWithNibName:@"WTFontViewController" bundle:nil];
     vc.fontname = _fontlist[indexPath.row][@"name"];
     vc.filename = _fontlist[indexPath.row][@"file"];

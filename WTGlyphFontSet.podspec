@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = 'WTGlyphFontSet'
-  s.version       = '0.5'
+  s.version       = '0.6'
   s.license       = { :type => 'MIT', :file => 'LICENSE.md' }
   s.summary       = 'draw or create image using glyph webfont.'
   s.homepage      = 'http://www.waterworld.com.hk'
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.platform      = :ios, '5.0'
   s.requires_arc  = true
-  s.source        = { :git => 'https://github.com/waterlou/WTGlyphFontSet.git', :tag => '0.5' }
+  s.source        = { :git => 'https://github.com/waterlou/WTGlyphFontSet.git', :tag => '0.6' }
   s.default_subspec = 'core'
 
   s.subspec 'core' do |core|

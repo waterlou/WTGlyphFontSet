@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
   s.name          = 'WTGlyphFontSet'
-  s.version       = '0.0.1'
-  s.license       = 'proprietary'
+  s.version       = '0.5'
+  s.license       = { :type => 'MIT', :file => 'LICENSE.md' }
   s.summary       = 'draw or create image using glyph webfont.'
   s.homepage      = 'http://www.waterworld.com.hk'
   s.author        = { 'waterlou' => 'https://github.com/waterlou' }
 
   s.platform      = :ios, '5.0'
   s.requires_arc  = true
-  s.source        = { :git => 'ssh://git.waterworld.com.hk/WTGlyphFontSet', :tag => '0.0.1' }
+  s.source        = { :git => 'ssh://git.waterworld.com.hk/WTGlyphFontSet', :tag => '0.5' }
   s.frameworks    = 'UIKit', 'CoreText'
   s.source_files  = 'WTGlyphFontSet/**/*.{h,m}'
 
@@ -47,6 +47,9 @@ Pod::Spec.new do |s|
   end
   s.subspec 'wpzoom' do |wpzoom|
     wpzoom.resource = 'wpzoom/**/*.{ttf,otf,plist}'
+  end
+  s.subspec 'condense-c' do |condense|
+    condense.resource = 'condense-c/**/*.{ttf,otf,plist}'
   end
 
 end

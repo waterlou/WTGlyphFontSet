@@ -45,7 +45,10 @@
     
     // use icon as back button
     UIBarButtonItem *backButtonItem = [[UIBarButtonItem alloc] init];
-    backButtonItem.image = [[WTGlyphFontSet fontSet: @"general_foundicons"] image:CGSizeMake(36, 20) name:@"left-arrow" color:[UIColor whiteColor] ];
+    //normal method to create an image from glyph
+    //backButtonItem.image = [[WTGlyphFontSet fontSet: @"general_foundicons"] image:CGSizeMake(36, 20) name:@"left-arrow" color:[UIColor whiteColor] ];
+    //use imageGlyphNamed to create image easily
+    backButtonItem.image = [UIImage imageGlyphNamed:@"general_foundicons##left-arrow" height:20.0f color:[UIColor whiteColor]];
     self.navigationItem.backBarButtonItem = backButtonItem;
 
 

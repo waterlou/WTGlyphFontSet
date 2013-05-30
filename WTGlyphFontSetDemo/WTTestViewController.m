@@ -28,27 +28,67 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    // demo to set text field aux view
     WTGlyphFontSet *fontSet = [WTGlyphFontSet loadFont:@"fontawesome_test" filename:@"fontawesome.ttf"];
-    //WTGlyphFontSet *fontSet = [WTGlyphFontSet loadFont:@"fontawesome_test" filename:@"mainicon.ttf"];
     [fontSet setTextFieldLeftView:self.textField1 name:@"user" color:[UIColor colorWithWhite:0.5 alpha:1.0]];
     self.textField1.leftViewMode = UITextFieldViewModeAlways;
     self.textField2.bounds = CGRectMake(0, 0, 140, 48);
-    [fontSet setTextFieldLeftView:self.textField2 name:@"credit-card" color:[UIColor colorWithWhite:0.5 alpha:1.0]];
+    //[fontSet setTextFieldLeftView:self.textField2 name:@"credit-card" color:[UIColor colorWithWhite:0.5 alpha:1.0]];
+    [self.textField2 setLeftGlyph:@"fontawesome##credit-card" color:[UIColor colorWithWhite:0.5 alpha:1.0]];
     self.textField2.leftViewMode = UITextFieldViewModeAlways;
+
+    [WTGlyphFontSet setDefaultFontSetName:@"fontawesome"];
+    // demo to set button
+    [self.button1 setGlyphNamed:@"download"];
+    [self.button2 setGlyphNamed:@"fontawesome##h-sign"];
     
-    [fontSet setButtonImage:self.button1 name:@"download" color:[UIColor darkGrayColor]];
-    [fontSet setButtonImage:self.button2 name:@"credit-card" color:[UIColor darkGrayColor]];
-    //[fontSet setButtonImage:self.button1 name:@"coin" color:[UIColor darkGrayColor]];
-    //[fontSet setButtonImage:self.button2 name:@"coin" color:[UIColor darkGrayColor]];
-    
-    NSMutableAttributedString *str = [[NSMutableAttributedString alloc] initWithAttributedString:[fontSet attributedStringWithName:@"credit-card" fontSize:self.label1.font.pointSize]];
-    [str appendAttributedString:[[NSAttributedString alloc] initWithString: @"BKACK"]];
+    // demo to set label using attributed text
+    NSMutableAttributedString *str = [NSMutableAttributedString attributedStringWithGlyph:@"credit-card" fontSize:self.label1.font.pointSize];
+    [str appendAttributedString:[[NSAttributedString alloc] initWithString: @" Label with attributed text"]];
     [self.label1 setAttributedText:str];
     
+    // demo to set navigation bar icon
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[fontSet imageWithHeight:18.0f name:@"star" color:[UIColor whiteColor]] style:UIBarButtonItemStyleBordered target:self action:@selector(doRightBarButtonClicked:)];
+
+    // demo to set toolbar icon using imageGlyphNamed
+    [UIImage setImageGlyphHeight:28.0f color:[UIColor whiteColor]];
+    [WTGlyphFontSet setDefaultFontSetName:@"fontawesome"];
+    NSArray *icons = @[@"comment", @"heart-empty", @"keyboard", @"twitter", @"facebook", @"smile", @"caret-left", @"caret-right", @"ellipsis-horizontal"];
+    NSMutableArray *barItems = [[NSMutableArray alloc] init];
+    for (NSString *icon in icons) {
+        UIBarButtonItem *i = [[UIBarButtonItem alloc] initWithImage:[UIImage imageGlyphNamed:icon] style:UIBarButtonItemStylePlain target:self action:nil];
+        [barItems addObject: i];
+    }
+    [self.toolBar setItems:barItems animated:NO];
     
-    [UIImage setImageGlyphHeight:48.0f color:[UIColor darkGrayColor]];
-    self.imageView.image = [UIImage imageGlyphNamed:@"icomoon##yahoo-2"];
+    // various effect
+    self.imageView1.image = [UIImage imageGlyphNamed:@"icomoon##apple" height:64.0f color:[UIColor darkGrayColor]];
+
+    // set fontSize to 0.0 will use the fontsize according to the height of the image
+    self.imageView2.image = [UIImage imageGlyphNamed:@"icomoon##apple" height:64.0f fontSize:0.0 color:nil strokeColor:[UIColor darkGrayColor] strokeWidth:1.0f verticalAlignment:NSVerticalTextAlignmentCenter];
+
+    self.imageView3.image = [UIImage imageGlyphNamed:@"icomoon##apple" height:64.0f fontSize:0.0 color:[UIColor colorWithRed:0.800 green:1.000 blue:0.400 alpha:1.000] strokeColor:[UIColor blackColor] strokeWidth:1.0f verticalAlignment:NSVerticalTextAlignmentCenter];
+
+    // set fontSize
+    self.imageView4.image = [UIImage imageGlyphNamed:@"icomoon##apple" height:64.0f fontSize:48.0 color:[UIColor darkGrayColor] strokeColor:[UIColor darkGrayColor] strokeWidth:1.0f verticalAlignment:NSVerticalTextAlignmentCenter];
+    self.imageView4.backgroundColor = [UIColor colorWithRed:1.000 green:1.000 blue:0.400 alpha:1.000];
+
+    self.imageView5.image = [UIImage imageGlyphNamed:@"icomoon##apple" height:64.0f fontSize:48.0 color:[UIColor darkGrayColor] strokeColor:[UIColor darkGrayColor] strokeWidth:1.0f verticalAlignment:NSVerticalTextAlignmentTop];
+    self.imageView5.backgroundColor = [UIColor colorWithRed:1.000 green:1.000 blue:0.400 alpha:1.000];
+
+    self.imageView6.image = [UIImage imageGlyphNamed:@"icomoon##apple" height:64.0f fontSize:48.0 color:[UIColor darkGrayColor] strokeColor:[UIColor darkGrayColor] strokeWidth:1.0f verticalAlignment:NSVerticalTextAlignmentBottom];
+    self.imageView6.backgroundColor = [UIColor colorWithRed:1.000 green:1.000 blue:0.400 alpha:1.000];
+
+    self.imageView7.image = [UIImage imageGlyphNamed:@"icomoon##apple" height:64.0f fontSize:48.0 color:[UIColor darkGrayColor] strokeColor:[UIColor darkGrayColor] strokeWidth:1.0f verticalAlignment:NSVerticalTextAlignmentManualBaseline];
+    self.imageView7.backgroundColor = [UIColor colorWithRed:1.000 green:1.000 blue:0.400 alpha:1.000];
+
+    self.imageView8.image = [UIImage imageGlyphNamed:@"icomoon##apple" height:64.0f fontSize:48.0 color:[UIColor darkGrayColor] strokeColor:[UIColor darkGrayColor] strokeWidth:1.0f verticalAlignment:NSVerticalTextAlignmentDefault];
+    self.imageView8.backgroundColor = [UIColor colorWithRed:1.000 green:1.000 blue:0.400 alpha:1.000];
+
+    self.imageView9.image = [UIImage imageGlyphNamed:@"icomoon##android" height:64.0f color:[UIColor colorWithRed:0.000 green:0.502 blue:0.251 alpha:1.000]];
+    self.imageView9.backgroundColor = [UIColor colorWithRed:1.000 green:1.000 blue:0.400 alpha:1.000];
+
 }
 
 - (IBAction)doRightBarButtonClicked:(id)sender

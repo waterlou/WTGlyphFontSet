@@ -8,6 +8,12 @@
 
 #import "WTGlyphFontSet.h"
 
+@interface WTGlyphFontSet()
+
++ (NSString *) parseFontName:(NSString**)name;
+
+@end
+
 @implementation WTGlyphFontSet {
     NSDictionary *_glyphLookup;
 }
@@ -16,6 +22,9 @@ static NSMutableDictionary *glyphFonts = nil;
 
 + (WTGlyphFontSet*) loadFont:(NSString*)fontname filename:(NSString*)filename
 {
+    WTGlyphFontSet *loadedFont = [[self class] fontSet: fontname];
+    if (loadedFont) return loadedFont;  // font already loaded
+    
     NSArray *fileComponent = [filename componentsSeparatedByString:@"."];
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -65,6 +74,10 @@ static NSMutableDictionary *glyphFonts = nil;
         CGFontRelease(cgFont);
         
         self.baseline = 0.2;
+        
+        //self.insets = UIEdgeInsetsMake(8, 8, 8, 8);
+        
+
     }
     return self;
 }
@@ -132,27 +145,38 @@ static NSMutableDictionary *glyphFonts = nil;
 
 - (void)drawAtRect:(CGRect)rect name:(NSString*)name color:(UIColor*)color
 {
-    [self drawAtRect:rect name:name fontSize:[self fontSizeFromHeight:rect.size.height] color:color
+    [self drawAtRect:rect name:name color:color
            alignment:NSTextAlignmentCenter verticalAlignment:NSVerticalTextAlignmentCenter];
 }
 
+- (void)drawAtRect:(CGRect)rect name:(NSString*)name color:(UIColor*)color
+         alignment:(NSTextAlignment) alignment verticalAlignment:(NSVerticalTextAlignment)verticalAlignment
+{
+    [self drawAtRect:rect name:name fontSize:0.0 color:color strokeColor:nil strokeWidth:0.0f alignment:alignment verticalAlignment:verticalAlignment];
+}
+
 - (void)drawAtRect:(CGRect)rect name:(NSString*)name fontSize:(CGFloat)fontSize color:(UIColor*)color
+       strokeColor:(UIColor*)strokeColor strokeWidth:(CGFloat)strokeWidth
          alignment:(NSTextAlignment) alignment verticalAlignment:(NSVerticalTextAlignment)verticalAlignment
 {
     NSString *iconString = _glyphLookup[name];
     if (iconString==nil) return;    // glyph not found
-    CGColorRef colorRef = color.CGColor;
-    
+  
+    if (fontSize==0.0) fontSize = [self fontSizeFromHeight:rect.size.height];
+
     // inset rect referring to glyphset setting
     rect = UIEdgeInsetsInsetRect(rect, self.insets);
 
     // create a font with correct size
     CTFontRef sizedFont = CTFontCreateCopyWithAttributes(_font, fontSize, NULL, NULL);
     
-    NSDictionary *attributesDict = [NSDictionary dictionaryWithObjectsAndKeys:
-                                    (__bridge id)sizedFont, (NSString *)kCTFontAttributeName,
-                                    colorRef, (NSString *)kCTForegroundColorAttributeName,
-                                    nil];
+    if (color!=nil && strokeWidth>0) strokeWidth = -strokeWidth;
+    
+    NSMutableDictionary *attributesDict = [NSMutableDictionary dictionaryWithDictionary:
+                                           @{(NSString*)kCTFontAttributeName:(__bridge id)sizedFont}];
+    if (color) [attributesDict setObject:(__bridge id)color.CGColor forKey:(NSString*)kCTForegroundColorAttributeName];
+    if (strokeWidth!=0.0) [attributesDict setObject:[NSNumber numberWithFloat:strokeWidth] forKey:(NSString*)kCTStrokeWidthAttributeName];
+    if (strokeColor) [attributesDict setObject:(__bridge id)strokeColor.CGColor forKey:(NSString*)kCTStrokeColorAttributeName];
 
     NSMutableAttributedString *attrString = [[NSMutableAttributedString alloc]
                                       initWithString:iconString
@@ -200,20 +224,25 @@ static NSMutableDictionary *glyphFonts = nil;
     CFRelease(sizedFont);
 }
 
-- (UIImage*) image : (CGSize)size name : (NSString*)name color : (UIColor*)color
+- (UIImage*) image:(CGSize)size name:(NSString*)name color:(UIColor*)color
 {
-    return [self image:size name:name fontSize:[self fontSizeFromHeight:size.height] color:color
+    return [self image:size name:name color:color
              alignment:NSTextAlignmentCenter verticalAlignment:NSVerticalTextAlignmentCenter];
 }
 
+- (UIImage*) image:(CGSize)size name:(NSString*)name color:(UIColor*)color
+         alignment:(NSTextAlignment) alignment verticalAlignment:(NSVerticalTextAlignment) verticalAlignment
+{
+    return [self image:size name:name fontSize:0.0 color:color strokeColor:nil strokeWidth:0.0f alignment:alignment verticalAlignment:verticalAlignment];
+}
+
 - (UIImage*) image:(CGSize)size name:(NSString*)name fontSize:(CGFloat)fontSize color:(UIColor*)color
+       strokeColor:(UIColor*)strokeColor strokeWidth:(CGFloat)strokeWidth
          alignment:(NSTextAlignment) alignment verticalAlignment:(NSVerticalTextAlignment) verticalAlignment
 {
     UIGraphicsBeginImageContextWithOptions(size, NO, 0.0f);
-    //[[UIColor yellowColor] setFill];
-    //CGContextFillRect(UIGraphicsGetCurrentContext(), CGRectMake(0, 0, size.width, size.height));
     [color setFill];
-    [self drawAtRect:CGRectMake(0,0,size.width,size.height) name:name fontSize:fontSize color:color alignment:alignment verticalAlignment:verticalAlignment];
+    [self drawAtRect:CGRectMake(0,0,size.width,size.height) name:name fontSize:fontSize color:color strokeColor:strokeColor strokeWidth:strokeWidth alignment:alignment verticalAlignment:verticalAlignment];
     UIImage *ret = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return ret;
@@ -221,32 +250,29 @@ static NSMutableDictionary *glyphFonts = nil;
 
 - (UIImage*) imageWithHeight:(CGFloat)height name:(NSString*)name color:(UIColor*)color
 {
-    return [self imageWithHeight:height name:name fontSize:[self fontSizeFromHeight:height] color:color
+    return [self imageWithHeight:height name:name color:color
                verticalAlignment:NSVerticalTextAlignmentCenter];
 }
 
-- (UIImage*) imageWithHeight:(CGFloat)height name:(NSString*)name fontSize:(CGFloat)fontSize
+- (UIImage*) imageWithHeight:(CGFloat)height name:(NSString*)name
                        color:(UIColor*)color verticalAlignment:(NSVerticalTextAlignment) verticalAlignment
 {
+    return [self imageWithHeight:height name:name fontSize:0.0 color:color
+                     strokeColor:nil strokeWidth:0.0f verticalAlignment:verticalAlignment];
+}
+
+- (UIImage*) imageWithHeight:(CGFloat)height name:(NSString*)name fontSize:(CGFloat)fontSize color:(UIColor*)color 
+                 strokeColor:(UIColor*)strokeColor strokeWidth:(CGFloat)strokeWidth
+                       verticalAlignment:(NSVerticalTextAlignment) verticalAlignment
+{
+    if (fontSize==0.0) fontSize = [self fontSizeFromHeight:height];
     CGSize size = CGSizeMake([self widthForIconWithFontSize:fontSize name:name], height);
     if (size.width>0)
-        return [self image:size name:name fontSize:fontSize color:color alignment:NSTextAlignmentLeft verticalAlignment:verticalAlignment];
+        return [self image:size name:name fontSize:fontSize color:color strokeColor:strokeColor strokeWidth:strokeWidth alignment:NSTextAlignmentLeft verticalAlignment:verticalAlignment];
     return nil; // glyph not found
 }
 
 #pragma mark -
-
-- (NSAttributedString*) attributedStringWithName:(NSString*)name fontSize:(CGFloat)fontSize
-{
-    NSString *iconString = _glyphLookup[name];
-    if (iconString==nil) return nil;    // glyph not found
-    
-    NSDictionary *attributesDict = @{(NSString*)kCTFontAttributeName:[self uiFontWithSize:fontSize]};
-
-    
-    return [[NSAttributedString alloc] initWithString:iconString attributes:attributesDict];
-}
-
 
 #pragma mark - helpers
 
@@ -257,7 +283,7 @@ static NSMutableDictionary *glyphFonts = nil;
     CGFloat width = ceilf(fmaxf(height, [self widthForIconWithFontSize:fontSize name:name]));
     NSAssert(width>0.0, @"glyph name not found");
     CGSize size = CGSizeMake(width, height);
-    UIImage *image = [self image:size name:name fontSize:fontSize color:color alignment:NSTextAlignmentCenter verticalAlignment:NSVerticalTextAlignmentCenter];
+    UIImage *image = [self image:size name:name fontSize:fontSize color:color strokeColor:nil strokeWidth:0.0f alignment:NSTextAlignmentCenter verticalAlignment:NSVerticalTextAlignmentCenter];
     textField.leftView = [[UIImageView alloc] initWithImage: image];
 }
 
@@ -268,20 +294,51 @@ static NSMutableDictionary *glyphFonts = nil;
     CGFloat width = ceilf(fmaxf(height, [self widthForIconWithFontSize:fontSize name:name]));
     NSAssert(width>0.0, @"glyph name not found");
     CGSize size = CGSizeMake(width, height);
-    UIImage *image = [self image:size name:name fontSize:fontSize color:color alignment:NSTextAlignmentCenter verticalAlignment:NSVerticalTextAlignmentCenter];
+    UIImage *image = [self image:size name:name fontSize:fontSize color:color strokeColor:nil strokeWidth:0.0f alignment:NSTextAlignmentCenter verticalAlignment:NSVerticalTextAlignmentCenter];
     textField.rightView = [[UIImageView alloc] initWithImage: image];
 }
 
-- (void) setButtonImage:(UIButton*)button name:(NSString*)name color:(UIColor*)color
+- (void) setButtonImage:(UIButton*)button name:(NSString*)name
 {
     CGFloat height = button.titleLabel.font.lineHeight;
     CGFloat fontSize = button.titleLabel.font.pointSize;
     CGFloat width = ceilf(fmaxf(height, [self widthForIconWithFontSize:fontSize name:name]));
     NSAssert(width>0.0, @"glyph name not found");
     CGSize size = CGSizeMake(width, height);
-    [button setImage:[self image:size name:name fontSize:fontSize color:[button titleColorForState:UIControlStateNormal] alignment:NSTextAlignmentCenter verticalAlignment:NSVerticalTextAlignmentManualBaseline] forState:UIControlStateNormal];
-    [button setImage:[self image:size name:name fontSize:fontSize  color:[button titleColorForState:UIControlStateHighlighted] alignment:NSTextAlignmentCenter verticalAlignment:NSVerticalTextAlignmentManualBaseline] forState:UIControlStateHighlighted];
-    [button setImage:[self image:size name:name fontSize:fontSize  color:[button titleColorForState:UIControlStateDisabled] alignment:NSTextAlignmentCenter verticalAlignment:NSVerticalTextAlignmentManualBaseline] forState:UIControlStateDisabled];
+    [button setImage:[self image:size name:name fontSize:fontSize color:[button titleColorForState:UIControlStateNormal] strokeColor:nil strokeWidth:0.0f alignment:NSTextAlignmentCenter verticalAlignment:NSVerticalTextAlignmentManualBaseline] forState:UIControlStateNormal];
+    [button setImage:[self image:size name:name fontSize:fontSize  color:[button titleColorForState:UIControlStateHighlighted] strokeColor:nil strokeWidth:0.0f alignment:NSTextAlignmentCenter verticalAlignment:NSVerticalTextAlignmentManualBaseline] forState:UIControlStateHighlighted];
+    [button setImage:[self image:size name:name fontSize:fontSize  color:[button titleColorForState:UIControlStateDisabled] strokeColor:nil strokeWidth:0.0f alignment:NSTextAlignmentCenter verticalAlignment:NSVerticalTextAlignmentManualBaseline] forState:UIControlStateDisabled];
+}
+
+#pragma mark -
+
+static NSString *__fontSetName = nil;
+
++ (void) setDefaultFontSetName:(NSString*)fontSetName
+{
+    __fontSetName = fontSetName;
+}
++ (NSString*) defaultFontSetName
+{
+    return __fontSetName;
+}
+
++ (NSString *) parseFontName:(NSString**)name
+{
+    NSString *fontSetName;
+    NSArray *breakName = [*name componentsSeparatedByString: @"##"];
+    if (breakName.count==2) {
+        fontSetName = breakName[0];
+        *name = breakName[1];
+    }
+    else {
+        fontSetName = [WTGlyphFontSet defaultFontSetName];
+        if (fontSetName==nil) {
+            NSLog(@"No font set is specified");
+            return nil;
+        }
+    }
+    return fontSetName;    
 }
 
 @end
@@ -289,24 +346,33 @@ static NSMutableDictionary *glyphFonts = nil;
 
 @implementation UIImage(WTGlyphFontSet)
 
-static CGFloat g_Height;
-static UIColor *g_Color;
+static CGFloat gHeight;
+static UIColor *gColor;
 
 + (void) setImageGlyphHeight:(CGFloat)height color:(UIColor*)color
 {
-    g_Height = height;
-    g_Color = color;
+    gHeight = height;
+    gColor = color;
 }
 
 + (UIImage*) imageGlyphNamed:(NSString *)name
 {
-    if (g_Color==nil) g_Color = [UIColor darkGrayColor];
-    if (g_Height==0) g_Height = 18.0f;
+    if (gColor==nil) gColor = [UIColor darkGrayColor];
+    if (gHeight==0) gHeight = 18.0f;
 
-    return [UIImage imageGlyphNamed:name height:g_Height color:g_Color];
+    return [UIImage imageGlyphNamed:name height:gHeight color:gColor];
 }
 
 + (UIImage*) imageGlyphNamed:(NSString *)name height:(CGFloat)height color:(UIColor*)color
+{
+    return [UIImage imageGlyphNamed:name height:height fontSize:0.0f color:color strokeColor:nil strokeWidth:0.0f verticalAlignment:NSVerticalTextAlignmentCenter];
+}
+
+
++ (UIImage*) imageGlyphNamed:(NSString *)name height:(CGFloat)height fontSize:(CGFloat)fontSize
+                       color:(UIColor*)color
+                 strokeColor:(UIColor*)strokeColor strokeWidth:(CGFloat)strokeWidth
+           verticalAlignment:(NSVerticalTextAlignment) verticalAlignment
 {
     static NSCache *imageCache;
     static dispatch_once_t onceToken;
@@ -314,28 +380,67 @@ static UIColor *g_Color;
         imageCache = [[NSCache alloc] init];
     });
 
-    NSString *fontSetName;
-    NSArray *breakName = [name componentsSeparatedByString: @"##"];
-    if (breakName.count==2) {
-        fontSetName = breakName[0];
-        name = breakName[1];
-    }
-    else {
-        return nil;
-    }
-    NSString *key = [NSString stringWithFormat:@"%@##%@##%f##%@", fontSetName, name, height, color];
-    NSLog(@"key %@", key);
+    NSString *fontSetName = [WTGlyphFontSet parseFontName:&name];
+    if (fontSetName==nil) return nil;
+    
+    // create key from caching
+    NSString *key = [NSString stringWithFormat:@"%@:%@:%f:%f:%@:%@:%f:%d", fontSetName, name, height, fontSize, color, strokeColor, strokeWidth, verticalAlignment];
+    //NSLog(@"key %@", key);
     
     UIImage *i = [imageCache objectForKey:key];
     if (i) return i;
     
     WTGlyphFontSet *fontSet = [WTGlyphFontSet loadFont:fontSetName filename:[fontSetName stringByAppendingPathExtension:@"ttf"]];
     if (fontSet) {
-        i = [fontSet imageWithHeight:height name:name color:color];
+        if (fontSize==0.0) fontSize = [fontSet fontSizeFromHeight:height];
+        i = [fontSet imageWithHeight:height name:name fontSize:fontSize color:color strokeColor:strokeColor strokeWidth:strokeWidth verticalAlignment:verticalAlignment];
         if (i) [imageCache setObject:i forKey:key];
         return i;
     }
     return nil;
+}
+
+@end
+
+@implementation NSAttributedString(WTGlyphFontSet)
++(id)attributedStringWithGlyph:(NSString*)name fontSize:(CGFloat)fontSize
+{
+    NSString *fontSetName = [WTGlyphFontSet parseFontName:&name];
+    if (fontSetName==nil) return nil;
+    WTGlyphFontSet *fontSet = [WTGlyphFontSet loadFont:fontSetName filename:[fontSetName stringByAppendingPathExtension:@"ttf"]];
+    
+    NSString *iconString = [fontSet code:name];
+    if (iconString==nil) return nil;    // glyph not found
+    NSDictionary *attributesDict = @{(NSString*)kCTFontAttributeName:[fontSet uiFontWithSize:fontSize]};
+    return [[[self class] alloc] initWithString:iconString attributes:attributesDict];
+}
+
+@end
+
+@implementation UITextField(WTGlyphFontSet)
+- (void) setLeftGlyph:(NSString*)name color:(UIColor*)color
+{
+    NSString *fontSetName = [WTGlyphFontSet parseFontName:&name];
+    if (fontSetName==nil) return;
+    WTGlyphFontSet *fontSet = [WTGlyphFontSet loadFont:fontSetName filename:[fontSetName stringByAppendingPathExtension:@"ttf"]];
+    [fontSet setTextFieldLeftView:self name:name color:color];
+}
+- (void) setRightGlyph:(NSString*)name color:(UIColor*)color
+{
+    NSString *fontSetName = [WTGlyphFontSet parseFontName:&name];
+    if (fontSetName==nil) return;
+    WTGlyphFontSet *fontSet = [WTGlyphFontSet loadFont:fontSetName filename:[fontSetName stringByAppendingPathExtension:@"ttf"]];
+    [fontSet setTextFieldRightView:self name:name color:color];
+}
+@end
+
+@implementation UIButton(WTGlyphFontSet)
+- (void) setGlyphNamed:(NSString*)name
+{
+    NSString *fontSetName = [WTGlyphFontSet parseFontName:&name];
+    if (fontSetName==nil) return;
+    WTGlyphFontSet *fontSet = [WTGlyphFontSet loadFont:fontSetName filename:[fontSetName stringByAppendingPathExtension:@"ttf"]];
+    [fontSet setButtonImage:self name:name];
 }
 
 @end

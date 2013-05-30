@@ -103,6 +103,13 @@ typedef NS_ENUM(NSInteger, NSVerticalTextAlignment) {
                  strokeColor:(UIColor*)strokeColor strokeWidth:(CGFloat)strokeWidth
            verticalAlignment:(NSVerticalTextAlignment) verticalAlignment;
 
++ (UIImage*) imageGlyphNamed:(NSString *)name size:(CGSize)size color:(UIColor*)color;
++ (UIImage*) imageGlyphNamed:(NSString *)name size:(CGSize)size fontSize:(CGFloat)fontSize
+                       color:(UIColor*)color
+                 strokeColor:(UIColor*)strokeColor strokeWidth:(CGFloat)strokeWidth
+                   alignment:(NSTextAlignment) alignment
+           verticalAlignment:(NSVerticalTextAlignment) verticalAlignment;
+
 @end
 
 @interface NSAttributedString(WTGlyphFontSet)

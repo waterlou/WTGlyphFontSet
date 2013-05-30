@@ -400,6 +400,43 @@ static UIColor *gColor;
     return nil;
 }
 
++ (UIImage*) imageGlyphNamed:(NSString *)name size:(CGSize)size color:(UIColor*)color
+{
+    return [UIImage imageGlyphNamed:name size:size fontSize:0.0 color:color strokeColor:nil strokeWidth:0.0 alignment:NSTextAlignmentCenter verticalAlignment:NSVerticalTextAlignmentCenter];
+}
+
++ (UIImage*) imageGlyphNamed:(NSString *)name size:(CGSize)size fontSize:(CGFloat)fontSize
+                       color:(UIColor*)color
+                 strokeColor:(UIColor*)strokeColor strokeWidth:(CGFloat)strokeWidth
+                   alignment:(NSTextAlignment) alignment
+           verticalAlignment:(NSVerticalTextAlignment) verticalAlignment
+{
+    static NSCache *imageCache;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        imageCache = [[NSCache alloc] init];
+    });
+    
+    NSString *fontSetName = [WTGlyphFontSet parseFontName:&name];
+    if (fontSetName==nil) return nil;
+    
+    // create key from caching
+    NSString *key = [NSString stringWithFormat:@"%@:%@:%@:%f:%@:%@:%f:%d:%d", fontSetName, name, NSStringFromCGSize(size), fontSize, color, strokeColor, strokeWidth, alignment, verticalAlignment];
+    //NSLog(@"key %@", key);
+    
+    UIImage *i = [imageCache objectForKey:key];
+    if (i) return i;
+    
+    WTGlyphFontSet *fontSet = [WTGlyphFontSet loadFont:fontSetName filename:[fontSetName stringByAppendingPathExtension:@"ttf"]];
+    if (fontSet) {
+        if (fontSize==0.0) fontSize = [fontSet fontSizeFromHeight:size.height];
+        i = [fontSet image:size name:name fontSize:fontSize color:color strokeColor:strokeColor strokeWidth:strokeWidth alignment:alignment verticalAlignment:verticalAlignment];
+        if (i) [imageCache setObject:i forKey:key];
+        return i;
+    }
+    return nil;    
+}
+
 @end
 
 @implementation NSAttributedString(WTGlyphFontSet)

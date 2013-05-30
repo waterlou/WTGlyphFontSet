@@ -5,6 +5,7 @@ WTGlyphFontSet
 - No setup on the Info.plist
 - drawRect or generate an image in arbitary size
 - As easy as using [UIImage imageNamed:]
+- Cocoapods support
 - support normal or retina display
 - less images on your app to keep your app size small
 
@@ -124,13 +125,24 @@ The class uses CoreText to draw glyph, so it will not register the font to UIKit
 
 that it will register the font to UIKit and you can get the UIFont object for further processing.
 
-### Custom Font Glyphs
+### Custom font glyphs
 
 Check [icomoon.io](http://icomoon.io) for creating custom icon fonts
 
 Also check [fontcustom.com](http://fontcustom.com) for building custom font from svg.
 
 Check the folder fontcustom in the demo project, where contains a script in node.js that convert the .css file to .plist automatically.
+
+### Use it on cocoapods
+
+To use the code, the easiest way is using [cocoapods](http://cocoapods.org).  Simply add the line to PodFile:
+
+	pod 'WTGlyphFontSet'
+	
+If you want to use fonts (wpzoom in this example) in the repo, you can:
+
+	pod 'WTGlyphFontSet'
+	pod 'WTGlyphFontSet/wpzoom'
 
 ### Contribution
 

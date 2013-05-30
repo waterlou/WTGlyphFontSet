@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.platform      = :ios, '5.0'
   s.requires_arc  = true
-  s.source        = { :git => 'ssh://git.waterworld.com.hk/WTGlyphFontSet', :tag => '0.5' }
+  s.source        = { :git => 'https://github.com/waterlou/WTGlyphFontSet.git', :tag => '0.5' }
   s.frameworks    = 'UIKit', 'CoreText'
   s.source_files  = 'WTGlyphFontSet/**/*.{h,m}'
 

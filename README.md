@@ -3,7 +3,7 @@ WTGlyphFontSet
 
 - Easily use free webfont icons in your iOS projects
 - No setup on the Info.plist
-- drawRect or generate an image in arbitary size
+- drawRect or generate an image in arbitrary size
 - As easy as using [UIImage imageNamed:]
 - Cocoapods support
 - support normal or retina display

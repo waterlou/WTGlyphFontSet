@@ -5,7 +5,7 @@ WTGlyphFontSet
 - No setup on the Info.plist
 - drawRect or generate an image in arbitary size
 - As easy as using [UIImage imageNamed:]
-- Cocoapods support
+- CocoaPods support
 - support normal or retina display
 - less images on your app to keep your app size small
 

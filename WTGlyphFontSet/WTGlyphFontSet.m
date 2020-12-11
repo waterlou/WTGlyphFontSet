@@ -48,8 +48,8 @@ static NSMutableDictionary *glyphFonts = nil;
 - (id)initWithFontName:(NSString *)aName ofType:(NSString *)aType {
     self = [super init];
     if (self) {
-        NSString *fontPath = [[NSBundle mainBundle] pathForResource:aName ofType:aType];
-        NSString *plistPath = [[NSBundle mainBundle] pathForResource:aName ofType:@"plist"];
+        NSString *fontPath = [[NSBundle bundleForClass:self.class] pathForResource:aName ofType:aType];
+        NSString *plistPath = [[NSBundle bundleForClass:self.class] pathForResource:aName ofType:@"plist"];
         
         //NSURL * url = [[NSBundle mainBundle] URLForResource:aName withExtension:aType];
 		//CGDataProviderRef fontProvider = CGDataProviderCreateWithURL((__bridge CFURLRef)url);

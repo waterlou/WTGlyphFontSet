@@ -363,6 +363,11 @@
 				CLASSPREFIX = WT;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "First Water Tech Ltd";
+				TargetAttributes = {
+					495AC8A51666461B007164DA = {
+						DevelopmentTeam = EFSFV3Q6SU;
+					};
+				};
 			};
 			buildConfigurationList = 495AC8A01666461B007164DA /* Build configuration list for PBXProject "WTGlyphFontSetDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -519,6 +524,7 @@
 		495AC8CB1666461B007164DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = EFSFV3Q6SU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WTGlyphFontSetDemo/WTGlyphFontSetDemo-Prefix.pch";
 				INFOPLIST_FILE = "WTGlyphFontSetDemo/WTGlyphFontSetDemo-Info.plist";
@@ -532,6 +538,7 @@
 		495AC8CC1666461B007164DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = EFSFV3Q6SU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WTGlyphFontSetDemo/WTGlyphFontSetDemo-Prefix.pch";
 				INFOPLIST_FILE = "WTGlyphFontSetDemo/WTGlyphFontSetDemo-Info.plist";
